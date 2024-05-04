@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Example</title>
+    <style id="1">
+      div {
+        coler: red;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css文件路径" />
+    <style id="2">
+      h1 {
+        color: bule;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <ul>
+      <li
+        class="block__item"
+        style="filter: alpha(opacity=50); margin-top: 0.5em"
+      ></li>
+      <li class="block__item">1</li>
+      <li class="block__item">2</li>
+    </ul>
+
+    <div>
+      <div class="first__class">
+        <div class="second__class">
+          <div class="third__class">
+            <img
+              src="${pageContext.request.contextPath}/bill/kjpz_jzpz00_ty/black_pen.jpg"
+              name="pen"
+              width="10"
+              height="25"
+              id="pen"
+              onclick="if (this.src.indexOf('${pageContext.request.contextPath}/bill/kjpz_jzpz00_ty/black_pen.jpg')&gt;=0) { this.src='${pageContext.request.contextPath}/bill/kjpz_jzpz00_ty/red_pen.jpg'; document.getElementsByName('b7')[1].value='-1';change_color('-1','1'); } else {this.src='${pageContext.request.contextPath}/bill/kjpz_jzpz00_ty/black_pen.jpg'; document.getElementsByName('b7')[1].;change_color('','1');}"
+              alt="true"
+            />
+            <p>
+              <span style="color: orange"></span>
+            </p>
+            <h1 class="nav" style="color: blue; text-align: center">
+              This is a title
+            </h1>
+            <p style="color: green; font-weight: bold">This is a paragraph</p>
+            <div
+              style="
+                text-align: center;
+                filter: alpha(opacity=50);
+                margin-top: 1px;
+                margin-right: 2px;
+                margin-bottom: 3px;
+                margin-left: 4px;
+              "
+            >
+              Test
+            </div>
+            <p style="margin-top: 5px"></p>
+          </div>
+        </div>
+        <hr style="border-top: 1px solid orange" />
+      </div>
+    </div>
+  </body>
+</html>

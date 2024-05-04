@@ -1,0 +1,902 @@
+{
+  "0": {
+    "translations": [
+      {
+        "text": "i18n - 使用 Crowdin |多库萨龙",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [23, 10], "transSentLen": [19, 4] }
+      }
+    ]
+  },
+  "1": {
+    "translations": [
+      {
+        "text": "跳到主要内容",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [20], "transSentLen": [6] }
+      }
+    ]
+  },
+  "2": {
+    "translations": [
+      {
+        "text": "🎉️ <b10><b20>Docusaurus v3.2</b20> 发布了！</b10> 🥳️",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [53], "transSentLen": [50] }
+      }
+    ]
+  },
+  "3": {
+    "translations": [
+      {
+        "text": "关闭",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [2] }
+      }
+    ]
+  },
+  "4": {
+    "translations": [
+      {
+        "text": "主要",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [4], "transSentLen": [2] }
+      }
+    ]
+  },
+  "5": {
+    "translations": [
+      {
+        "text": "多库萨龙",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [10], "transSentLen": [4] }
+      }
+    ]
+  },
+  "6": {
+    "translations": [
+      {
+        "text": "文档",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [4], "transSentLen": [2] }
+      }
+    ]
+  },
+  "7": {
+    "translations": [
+      {
+        "text": "应用程序接口",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [3], "transSentLen": [6] }
+      }
+    ]
+  },
+  "8": {
+    "translations": [
+      {
+        "text": "博客",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [4], "transSentLen": [2] }
+      }
+    ]
+  },
+  "9": {
+    "translations": [
+      {
+        "text": "展示",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [8], "transSentLen": [2] }
+      }
+    ]
+  },
+  "10": {
+    "translations": [
+      {
+        "text": "社区",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [2] }
+      }
+    ]
+  },
+  "11": {
+    "translations": [
+      {
+        "text": "3.2.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "12": {
+    "translations": [
+      {
+        "text": "金丝雀 🚧",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [6] }
+      }
+    ]
+  },
+  "13": {
+    "translations": [
+      {
+        "text": "3.1.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "14": {
+    "translations": [
+      {
+        "text": "3.0.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "15": {
+    "translations": [
+      {
+        "text": "2.x",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [3], "transSentLen": [3] }
+      }
+    ]
+  },
+  "16": {
+    "translations": [
+      {
+        "text": "存档版本",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [17], "transSentLen": [4] }
+      }
+    ]
+  },
+  "17": {
+    "translations": [
+      {
+        "text": "2.3.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "18": {
+    "translations": [
+      {
+        "text": "2.2.0",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "19": {
+    "translations": [
+      {
+        "text": "2.1.0",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "20": {
+    "translations": [
+      {
+        "text": "2.0.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "21": {
+    "translations": [
+      {
+        "text": "1.x.x",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [5] }
+      }
+    ]
+  },
+  "22": {
+    "translations": [
+      {
+        "text": "所有版本",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [4] }
+      }
+    ]
+  },
+  "23": {
+    "translations": [
+      {
+        "text": "<b10><b20></b20></b10>英语",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [29], "transSentLen": [24] }
+      }
+    ]
+  },
+  "24": {
+    "translations": [
+      {
+        "text": "英语",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [7], "transSentLen": [2] }
+      }
+    ]
+  },
+  "25": {
+    "translations": [
+      {
+        "text": "Français",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [8], "transSentLen": [8] }
+      }
+    ]
+  },
+  "26": {
+    "translations": [
+      {
+        "text": "Português （巴西）",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [18], "transSentLen": [14] }
+      }
+    ]
+  },
+  "27": {
+    "translations": [
+      {
+        "text": "한국어",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [3], "transSentLen": [3] }
+      }
+    ]
+  },
+  "28": {
+    "translations": [
+      {
+        "text": "中文（中国）",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [6], "transSentLen": [6] }
+      }
+    ]
+  },
+  "29": {
+    "translations": [
+      {
+        "text": "帮助我们翻译",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [17], "transSentLen": [6] }
+      }
+    ]
+  },
+  "30": {
+    "translations": [
+      {
+        "text": "GitHub 存储库",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [17], "transSentLen": [10] }
+      }
+    ]
+  },
+  "31": {
+    "translations": [
+      {
+        "text": "在深色和浅色模式之间切换（当前为浅色模式）",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [57], "transSentLen": [21] }
+      }
+    ]
+  },
+  "32": {
+    "translations": [
+      {
+        "text": "搜索",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [6], "transSentLen": [2] }
+      }
+    ]
+  },
+  "33": {
+    "translations": [
+      {
+        "text": "文档侧边栏",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [5] }
+      }
+    ]
+  },
+  "34": {
+    "translations": [
+      {
+        "text": "介绍",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [2] }
+      }
+    ]
+  },
+  "35": {
+    "translations": [
+      {
+        "text": "开始",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [15], "transSentLen": [2] }
+      }
+    ]
+  },
+  "36": {
+    "translations": [
+      {
+        "text": "折叠侧边栏类别“入门”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [43], "transSentLen": [11] }
+      }
+    ]
+  },
+  "37": {
+    "translations": [
+      {
+        "text": "安装",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [2] }
+      }
+    ]
+  },
+  "38": {
+    "translations": [
+      {
+        "text": "配置",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [13], "transSentLen": [2] }
+      }
+    ]
+  },
+  "39": {
+    "translations": [
+      {
+        "text": "操场",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [10], "transSentLen": [2] }
+      }
+    ]
+  },
+  "40": {
+    "translations": [
+      {
+        "text": "TypeScript 支持",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [18], "transSentLen": [13] }
+      }
+    ]
+  },
+  "41": {
+    "translations": [
+      {
+        "text": "指南",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [6], "transSentLen": [2] }
+      }
+    ]
+  },
+  "42": {
+    "translations": [
+      {
+        "text": "折叠侧边栏类别“指南”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [34], "transSentLen": [11] }
+      }
+    ]
+  },
+  "43": {
+    "translations": [
+      {
+        "text": "页面",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [5], "transSentLen": [2] }
+      }
+    ]
+  },
+  "44": {
+    "translations": [
+      {
+        "text": "展开侧边栏类别“文档”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [30], "transSentLen": [11] }
+      }
+    ]
+  },
+  "45": {
+    "translations": [
+      {
+        "text": "Markdown 功能",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [17], "transSentLen": [11] }
+      }
+    ]
+  },
+  "46": {
+    "translations": [
+      {
+        "text": "展开侧边栏类别“Markdown 功能”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [43], "transSentLen": [20] }
+      }
+    ]
+  },
+  "47": {
+    "translations": [
+      {
+        "text": "样式和布局",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [18], "transSentLen": [5] }
+      }
+    ]
+  },
+  "48": {
+    "translations": [
+      {
+        "text": "晃晃悠悠",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [4] }
+      }
+    ]
+  },
+  "49": {
+    "translations": [
+      {
+        "text": "静态资产",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [13], "transSentLen": [4] }
+      }
+    ]
+  },
+  "50": {
+    "translations": [
+      {
+        "text": "浏览器支持",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [15], "transSentLen": [5] }
+      }
+    ]
+  },
+  "51": {
+    "translations": [
+      {
+        "text": "搜索引擎优化",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [3], "transSentLen": [6] }
+      }
+    ]
+  },
+  "52": {
+    "translations": [
+      {
+        "text": "使用插件",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [13], "transSentLen": [4] }
+      }
+    ]
+  },
+  "53": {
+    "translations": [
+      {
+        "text": "部署",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [10], "transSentLen": [2] }
+      }
+    ]
+  },
+  "54": {
+    "translations": [
+      {
+        "text": "国际化",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [20], "transSentLen": [3] }
+      }
+    ]
+  },
+  "55": {
+    "translations": [
+      {
+        "text": "折叠侧边栏类别“国际化”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [48], "transSentLen": [12] }
+      }
+    ]
+  },
+  "56": {
+    "translations": [
+      {
+        "text": "教程",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [8], "transSentLen": [2] }
+      }
+    ]
+  },
+  "57": {
+    "translations": [
+      {
+        "text": "使用 Git",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [6] }
+      }
+    ]
+  },
+  "58": {
+    "translations": [
+      {
+        "text": "使用 Crowdin",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [13], "transSentLen": [10] }
+      }
+    ]
+  },
+  "59": {
+    "translations": [
+      {
+        "text": "下一步是什么？",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [7] }
+      }
+    ]
+  },
+  "60": {
+    "translations": [
+      {
+        "text": "高级指南",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [15], "transSentLen": [4] }
+      }
+    ]
+  },
+  "61": {
+    "translations": [
+      {
+        "text": "展开侧边栏类别“高级指南”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [41], "transSentLen": [13] }
+      }
+    ]
+  },
+  "62": {
+    "translations": [
+      {
+        "text": "升级",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [2] }
+      }
+    ]
+  },
+  "63": {
+    "translations": [
+      {
+        "text": "展开侧边栏类别“升级”",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [35], "transSentLen": [11] }
+      }
+    ]
+  },
+  "64": {
+    "translations": [
+      {
+        "text": "折叠侧边栏",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [16], "transSentLen": [5] }
+      }
+    ]
+  },
+  "65": {
+    "translations": [
+      {
+        "text": "面包屑",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [11], "transSentLen": [3] }
+      }
+    ]
+  },
+  "66": {
+    "translations": [
+      {
+        "text": "主页",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [9], "transSentLen": [2] }
+      }
+    ]
+  },
+  "67": {
+    "translations": [
+      {
+        "text": "版本： 3.2.1",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [14], "transSentLen": [9] }
+      }
+    ]
+  },
+  "68": {
+    "translations": [
+      {
+        "text": "i18n - 使用 Crowdin",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [20], "transSentLen": [17] }
+      }
+    ]
+  },
+  "69": {
+    "translations": [
+      {
+        "text": "Docusaurus 的 i18n 系统<b10>与任何翻译软件都分离</b10>。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [84], "transSentLen": [42] }
+      }
+    ]
+  },
+  "70": {
+    "translations": [
+      {
+        "text": "您可以将 Docusaurus 与您<b10>选择的工具和 SaaS</b10> 集成，只要您将<b11>翻译文件放在正确的位置</b11>即可。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [156], "transSentLen": [73] }
+      }
+    ]
+  },
+  "71": {
+    "translations": [
+      {
+        "text": "我们记录了 <b10>Crowdin</b10> 的使用<b11>，作为一个可能的</b11><b12>集成示例</b12>。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [103], "transSentLen": [63] }
+      }
+    ]
+  },
+  "72": {
+    "translations": [
+      {
+        "text": "警告",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [7], "transSentLen": [2] }
+      }
+    ]
+  },
+  "73": {
+    "translations": [
+      {
+        "text": "这并不是<b10>对 Crowdin</b10> 作为翻译 Docusaurus 网站的唯一选择的认可，但它被 Facebook 成功地用于翻译 <b11>Jest</b11>、<b12>Docusaurus</b12> 和 <b13>ReasonML</b13> 等文档项目。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [250], "transSentLen": [139] }
+      }
+    ]
+  },
+  "74": {
+    "translations": [
+      {
+        "text": "有关帮助，请参阅 <b10><b20>Crowdin 文档</b20></b10>和 <b11><b20>Crowdin 支持</b20></b11>。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [108], "transSentLen": [76] }
+      }
+    ]
+  },
+  "75": {
+    "translations": [
+      {
+        "text": "提示",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [3], "transSentLen": [2] }
+      }
+    ]
+  },
+  "76": {
+    "translations": [
+      {
+        "text": "使用<b10><b20>这个社区驱动的 GitHub 讨论</b20></b10>来讨论与 Docusaurus + Crowdin 相关的任何事情。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [118], "transSentLen": [75] }
+      }
+    ]
+  },
+  "77": {
+    "translations": [
+      {
+        "text": "直接链接到 Crowdin 概述",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [31], "transSentLen": [16] }
+      }
+    ]
+  },
+  "78": {
+    "translations": [
+      {
+        "text": "Crowdin 概述<b10></b10>",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [28], "transSentLen": [21] }
+      }
+    ]
+  },
+  "79": {
+    "translations": [
+      {
+        "text": "Crowdin 是一个翻译 SaaS，<b10>为开源项目提供免费计划</b10>。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [88], "transSentLen": [42] }
+      }
+    ]
+  },
+  "80": {
+    "translations": [
+      {
+        "text": "我们建议采用以下翻译工作流程：",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [48], "transSentLen": [15] }
+      }
+    ]
+  },
+  "81": {
+    "translations": [
+      {
+        "text": "<b10>将源上传</b10>到 Crowdin（未翻译的文件）",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [57], "transSentLen": [32] }
+      }
+    ]
+  },
+  "82": {
+    "translations": [
+      {
+        "text": "使用 Crowdin <b10>翻译内容</b10>",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [47], "transSentLen": [26] }
+      }
+    ]
+  },
+  "83": {
+    "translations": [
+      {
+        "text": "从 Crowdin <b10>下载翻译</b10>（本地化翻译文件）",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [75], "transSentLen": [34] }
+      }
+    ]
+  },
+  "84": {
+    "translations": [
+      {
+        "text": "Crowdin 提供了一个 <b10>CLI</b10> 来<b11>上传源</b11>代码和<b12>下载翻译</b12>，允许您自动化翻译过程。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [150], "transSentLen": [74] }
+      }
+    ]
+  },
+  "85": {
+    "translations": [
+      {
+        "text": "<b10><b20>crowdin.yml</b20>配置文件</b10>方便 Docusaurus，并允许<b11>在预期位置（在 ）下载本地化的翻译文件</b11>。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [185], "transSentLen": [85] }
+      }
+    ]
+  },
+  "86": {
+    "translations": [
+      {
+        "text": "阅读<b10><b20>官方文档</b20></b10>，详细了解高级功能和不同的翻译工作流程。",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [127], "transSentLen": [48] }
+      }
+    ]
+  },
+  "87": {
+    "translations": [
+      {
+        "text": "Crowdin 概述",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [16], "transSentLen": [10] }
+      }
+    ]
+  },
+  "88": {
+    "translations": [
+      {
+        "text": "Crowdin 教程",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [16], "transSentLen": [10] }
+      }
+    ]
+  },
+  "89": {
+    "translations": [
+      {
+        "text": "准备 Docusaurus 网站",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [27], "transSentLen": [16] }
+      }
+    ]
+  },
+  "90": {
+    "translations": [
+      {
+        "text": "创建 Crowdin 项目",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [24], "transSentLen": [13] }
+      }
+    ]
+  },
+  "91": {
+    "translations": [
+      {
+        "text": "创建 Crowdin 配置",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [32], "transSentLen": [13] }
+      }
+    ]
+  },
+  "92": {
+    "translations": [
+      {
+        "text": "访问令牌",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [12], "transSentLen": [4] }
+      }
+    ]
+  },
+  "93": {
+    "translations": [
+      {
+        "text": "其他配置字段",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [26], "transSentLen": [6] }
+      }
+    ]
+  },
+  "94": {
+    "translations": [
+      {
+        "text": "安装 Crowdin CLI",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [23], "transSentLen": [14] }
+      }
+    ]
+  },
+  "95": {
+    "translations": [
+      {
+        "text": "上传源",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [18], "transSentLen": [3] }
+      }
+    ]
+  },
+  "96": {
+    "translations": [
+      {
+        "text": "翻译源代码",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [21], "transSentLen": [5] }
+      }
+    ]
+  },
+  "97": {
+    "translations": [
+      {
+        "text": "下载翻译",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [25], "transSentLen": [4] }
+      }
+    ]
+  },
+  "98": {
+    "translations": [
+      {
+        "text": "使用 CI 实现自动化",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [16], "transSentLen": [11] }
+      }
+    ]
+  },
+  "99": {
+    "translations": [
+      {
+        "text": "高级 Crowdin 主题",
+        "to": "zh-Hans",
+        "sentLen": { "srcSentLen": [23], "transSentLen": [13] }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+      at Function.throw (src/lib/types/Errors.ts:91:14)
+      at src/lib/types/Errors.spec.ts:40:32
+      at Object.<anonymous> (../../node_modules/expect/build/toThrowMatchers.js:74:11)
+      at Object.throwingMatcher [as toThrow] (../../node_modules/expect/build/index.js:320:21)
+      at Object.<anonymous> (src/lib/types/Errors.spec.ts:40:49)
+
+
+测试错a误 测试错误:
+
+      at Function.logger (src/lib/types/Errors.ts:77:15)
+      at Object.<anonymous> (src/lib/types/Errors.spec.ts:13:7)

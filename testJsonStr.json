@@ -1,0 +1,124 @@
+[
+  { "Text": "i18n - Using Crowdin | Docusaurus" },
+  { "Text": "Skip to main content" },
+  { "Text": "🎉️ <b10><b20>Docusaurus v3.2</b20> is out!</b10> 🥳️" },
+  { "Text": "Close" },
+  { "Text": "Main" },
+  { "Text": "Docusaurus" },
+  { "Text": "Docs" },
+  { "Text": "API" },
+  { "Text": "Blog" },
+  { "Text": "Showcase" },
+  { "Text": "Community" },
+  { "Text": "3.2.1" },
+  { "Text": "Canary 🚧" },
+  { "Text": "3.1.1" },
+  { "Text": "3.0.1" },
+  { "Text": "2.x" },
+  { "Text": "Archived versions" },
+  { "Text": "2.3.1" },
+  { "Text": "2.2.0" },
+  { "Text": "2.1.0" },
+  { "Text": "2.0.1" },
+  { "Text": "1.x.x" },
+  { "Text": "All versions" },
+  { "Text": "<b10><b20></b20></b10>English" },
+  { "Text": "English" },
+  { "Text": "Français" },
+  { "Text": "Português (Brasil)" },
+  { "Text": "한국어" },
+  { "Text": "中文（中国）" },
+  { "Text": "Help Us Translate" },
+  { "Text": "GitHub repository" },
+  { "Text": "Switch between dark and light mode (currently light mode)" },
+  { "Text": "Search" },
+  { "Text": "Docs sidebar" },
+  { "Text": "Introduction" },
+  { "Text": "Getting Started" },
+  { "Text": "Collapse sidebar category 'Getting Started'" },
+  { "Text": "Installation" },
+  { "Text": "Configuration" },
+  { "Text": "Playground" },
+  { "Text": "TypeScript Support" },
+  { "Text": "Guides" },
+  { "Text": "Collapse sidebar category 'Guides'" },
+  { "Text": "Pages" },
+  { "Text": "Expand sidebar category 'Docs'" },
+  { "Text": "Markdown Features" },
+  { "Text": "Expand sidebar category 'Markdown Features'" },
+  { "Text": "Styling and Layout" },
+  { "Text": "Swizzling" },
+  { "Text": "Static Assets" },
+  { "Text": "Browser support" },
+  { "Text": "SEO" },
+  { "Text": "Using Plugins" },
+  { "Text": "Deployment" },
+  { "Text": "Internationalization" },
+  { "Text": "Collapse sidebar category 'Internationalization'" },
+  { "Text": "Tutorial" },
+  { "Text": "Using Git" },
+  { "Text": "Using Crowdin" },
+  { "Text": "What's next?" },
+  { "Text": "Advanced Guides" },
+  { "Text": "Expand sidebar category 'Advanced Guides'" },
+  { "Text": "Upgrading" },
+  { "Text": "Expand sidebar category 'Upgrading'" },
+  { "Text": "Collapse sidebar" },
+  { "Text": "Breadcrumbs" },
+  { "Text": "Home page" },
+  { "Text": "Version: 3.2.1" },
+  { "Text": "i18n - Using Crowdin" },
+  {
+    "Text": "The i18n system of Docusaurus is <b10>decoupled from any translation software</b10>."
+  },
+  {
+    "Text": "You can integrate Docusaurus with the <b10>tools and SaaS of your choice</b10>, as long as you put the <b11>translation files at the correct location</b11>."
+  },
+  {
+    "Text": "We document the usage of <b10>Crowdin</b10>, as <b11>one</b11> possible <b12>integration example</b12>."
+  },
+  { "Text": "warning" },
+  {
+    "Text": "This is <b10>not an endorsement of Crowdin</b10> as the unique choice to translate a Docusaurus site, but it is successfully used by Facebook to translate documentation projects such as <b11>Jest</b11>, <b12>Docusaurus</b12>, and <b13>ReasonML</b13>."
+  },
+  {
+    "Text": "Refer to the <b10><b20>Crowdin documentation</b20></b10> and <b11><b20>Crowdin support</b20></b11> for help."
+  },
+  { "Text": "tip" },
+  {
+    "Text": "Use this <b10><b20>community-driven GitHub discussion</b20></b10> to discuss anything related to Docusaurus + Crowdin."
+  },
+  { "Text": "Direct link to Crowdin overview" },
+  { "Text": "Crowdin overview<b10>​</b10>" },
+  {
+    "Text": "Crowdin is a translation SaaS, offering a <b10>free plan for open-source projects</b10>."
+  },
+  { "Text": "We recommend the following translation workflow:" },
+  { "Text": "<b10>Upload sources</b10> to Crowdin (untranslated files)" },
+  { "Text": "Use Crowdin to <b10>translate the content</b10>" },
+  {
+    "Text": "<b10>Download translations</b10> from Crowdin (localized translation files)"
+  },
+  {
+    "Text": "Crowdin provides a <b10>CLI</b10> to <b11>upload sources</b11> and <b12>download translations</b12>, allowing you to automate the translation process."
+  },
+  {
+    "Text": "The <b10><b20>crowdin.yml</b20> configuration file</b10> is convenient for Docusaurus, and permits to <b11>download the localized translation files at the expected location</b11> (in )."
+  },
+  {
+    "Text": "Read the <b10><b20>official documentation</b20></b10> to know more about advanced features and different translation workflows."
+  },
+  { "Text": "Crowdin overview" },
+  { "Text": "Crowdin tutorial" },
+  { "Text": "Prepare the Docusaurus site" },
+  { "Text": "Create a Crowdin project" },
+  { "Text": "Create the Crowdin configuration" },
+  { "Text": "Access token" },
+  { "Text": "Other configuration fields" },
+  { "Text": "Install the Crowdin CLI" },
+  { "Text": "Upload the sources" },
+  { "Text": "Translate the sources" },
+  { "Text": "Download the translations" },
+  { "Text": "Automate with CI" },
+  { "Text": "Advanced Crowdin topics" }
+]
