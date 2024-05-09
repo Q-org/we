@@ -1,3 +1,67 @@
+swipeable-text-mobile-stepper.tsx:48  GET https://qio/n/api/imagesBaidu 502 (Bad Gateway)
+_callee$ @ swipeable-text-mobile-stepper.tsx:48
+tryCatch @ regeneratorRuntime.js:45
+eval @ regeneratorRuntime.js:133
+eval @ regeneratorRuntime.js:74
+asyncGeneratorStep @ asyncToGenerator.js:3
+_next @ asyncToGenerator.js:22
+eval @ asyncToGenerator.js:27
+eval @ asyncToGenerator.js:19
+fetchData @ swipeable-text-mobile-stepper.tsx:69
+eval @ swipeable-text-mobile-stepper.tsx:69
+commitHookEffectListMount @ react-dom.development.js:23189
+commitPassiveMountOnFiber @ react-dom.development.js:24965
+commitPassiveMountEffects_complete @ react-dom.development.js:24930
+commitPassiveMountEffects_begin @ react-dom.development.js:24917
+commitPassiveMountEffects @ react-dom.development.js:24905
+flushPassiveEffectsImpl @ react-dom.development.js:27078
+flushPassiveEffects @ react-dom.development.js:27023
+performSyncWorkOnRoot @ react-dom.development.js:26115
+flushSyncCallbacks @ react-dom.development.js:12042
+commitRootImpl @ react-dom.development.js:26998
+commitRoot @ react-dom.development.js:26721
+finishConcurrentRender @ react-dom.development.js:25975
+performConcurrentWorkOnRoot @ react-dom.development.js:25848
+workLoop @ scheduler.development.js:266
+flushWork @ scheduler.development.js:239
+performWorkUntilDeadline @ scheduler.development.js:533
+Errors.ts:151 SwipeableTextMobileStepper: fetching data, Network response was not ok
+overrideMethod @ console.js:273
+logger @ Errors.ts:151
+_callee$ @ swipeable-text-mobile-stepper.tsx:69
+tryCatch @ regeneratorRuntime.js:45
+eval @ regeneratorRuntime.js:133
+eval @ regeneratorRuntime.js:74
+asyncGeneratorStep @ asyncToGenerator.js:3
+_next @ asyncToGenerator.js:22
+Promise.then（异步）
+asyncGeneratorStep @ asyncToGenerator.js:12
+_next @ asyncToGenerator.js:22
+eval @ asyncToGenerator.js:27
+eval @ asyncToGenerator.js:19
+fetchData @ swipeable-text-mobile-stepper.tsx:69
+eval @ swipeable-text-mobile-stepper.tsx:69
+commitHookEffectListMount @ react-dom.development.js:23189
+commitPassiveMountOnFiber @ react-dom.development.js:24965
+commitPassiveMountEffects_complete @ react-dom.development.js:24930
+commitPassiveMountEffects_begin @ react-dom.development.js:24917
+commitPassiveMountEffects @ react-dom.development.js:24905
+flushPassiveEffectsImpl @ react-dom.development.js:27078
+flushPassiveEffects @ react-dom.development.js:27023
+performSyncWorkOnRoot @ react-dom.development.js:26115
+flushSyncCallbacks @ react-dom.development.js:12042
+commitRootImpl @ react-dom.development.js:26998
+commitRoot @ react-dom.development.js:26721
+finishConcurrentRender @ react-dom.development.js:25975
+performConcurrentWorkOnRoot @ react-dom.development.js:25848
+workLoop @ scheduler.development.js:266
+flushWork @ scheduler.development.js:239
+performWorkUntilDeadline @ scheduler.development.js:533
+
+
+
+
+
       at Function.throw (src/lib/types/Errors.ts:91:14)
       at src/lib/types/Errors.spec.ts:40:32
       at Object.<anonymous> (../../node_modules/expect/build/toThrowMatchers.js:74:11)
@@ -9,3 +73,7 @@
 
       at Function.logger (src/lib/types/Errors.ts:77:15)
       at Object.<anonymous> (src/lib/types/Errors.spec.ts:13:7)
+
+
+
+      
