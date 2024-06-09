@@ -1,3 +1,15 @@
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   at normalizeSlashes (C:\dev\wei\node_modules\ts-node\dist\util.js:62:18)
+   Object.<anonymous> (C:\dev\wei\src\runReplaces.ts:19:7)
+
+C:\dev\emsdk\upstream\emscripten
+
 swipeable-text-mobile-stepper.tsx:48  GET https://qio/n/api/imagesBaidu 502 (Bad Gateway)
 _callee$ @ swipeable-text-mobile-stepper.tsx:48
 tryCatch @ regeneratorRuntime.js:45
@@ -67,7 +79,7 @@ performWorkUntilDeadline @ scheduler.development.js:533
       at Object.<anonymous> (../../node_modules/expect/build/toThrowMatchers.js:74:11)
       at Object.throwingMatcher [as toThrow] (../../node_modules/expect/build/index.js:320:21)
       at Object.<anonymous> (src/lib/types/Errors.spec.ts:40:49)
-
+      at new Promise (<anonymous>)
 
 测试错a误 测试错误:
 

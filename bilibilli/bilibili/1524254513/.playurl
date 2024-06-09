@@ -1,0 +1,161 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "from": "local",
+    "result": "suee",
+    "message": "",
+    "quality": 112,
+    "format": "hdflv2",
+    "timelength": 868863,
+    "accept_format": "hdflv2,flv,flv720,flv480,mp4",
+    "accept_description": [
+      "高清 1080P+",
+      "高清 1080P",
+      "高清 720P",
+      "清晰 480P",
+      "流畅 360P"
+    ],
+    "accept_quality": [
+      112,
+      80,
+      64,
+      32,
+      16
+    ],
+    "video_codecid": 7,
+    "seek_param": "start",
+    "seek_type": "offset",
+    "dash": {
+      "duration": 869,
+      "minBufferTime": 1.5,
+      "min_buffer_time": 1.5,
+      "video": [
+        {
+          "id": 112,
+          "baseUrl": "https://xy118x184x254x68xy.mcdn.bilivideo.cn:4483/upgcxcode/13/45/1524254513/1524254513-1-30112.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1715176890&gen=playurlv2&os=mcdn&oi=3063380882&trid=0000f761b5c7ad3d42bd9738b259fc239327u&mid=602768235&platform=pc&upsig=31818e3a38fa8a07267aa4ca2ab7740b&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&mcdnid=50000041&bvc=vod&nettype=0&orderid=0,3&buvid=75942A6F489D5AD4F3A9C14024022803maE8NvBrKvx7nNUllGHXrw&build=0&f=u_0_0&agrr=0&bw=245282&logo=A0020000",
+          "base_url": "https://xy118x184x254x68xy.mcdn.bilivideo.cn:4483/upgcxcode/13/45/1524254513/1524254513-1-30112.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1715176890&gen=playurlv2&os=mcdn&oi=3063380882&trid=0000f761b5c7ad3d42bd9738b259fc239327u&mid=602768235&platform=pc&upsig=31818e3a38fa8a07267aa4ca2ab7740b&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&mcdnid=50000041&bvc=vod&nettype=0&orderid=0,3&buvid=75942A6F489D5AD4F3A9C14024022803maE8NvBrKvx7nNUllGHXrw&build=0&f=u_0_0&agrr=0&bw=245282&logo=A0020000",
+          "bandwidth": 1960696,
+          "mimeType": "video/mp4",
+          "mime_type": "video/mp4",
+          "codecs": "avc1.640033",
+          "width": 1920,
+          "height": 968,
+          "frameRate": "25",
+          "frame_rate": "25",
+          "sar": "1:1",
+          "startWithSap": 1,
+          "start_with_sap": 1,
+          "SegmentBase": {
+            "Initialization": "0-901",
+            "indexRange": "902-3021"
+          },
+          "segment_base": {
+            "initialization": "0-901",
+            "index_range": "902-3021"
+          },
+          "codecid": 7
+        }
+      ],
+      "audio": [
+        {
+          "id": 30280,
+          "baseUrl": "https://xy118x184x254x68xy.mcdn.bilivideo.cn:4483/upgcxcode/13/45/1524254513/1524254513-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1715176890&gen=playurlv2&os=mcdn&oi=3063380882&trid=0000f761b5c7ad3d42bd9738b259fc239327u&mid=602768235&platform=pc&upsig=e11318866967cba88d5e346519705503&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&mcdnid=50000041&bvc=vod&nettype=0&orderid=0,3&buvid=75942A6F489D5AD4F3A9C14024022803maE8NvBrKvx7nNUllGHXrw&build=0&f=u_0_0&agrr=0&bw=15371&logo=A0020000",
+          "base_url": "https://xy118x184x254x68xy.mcdn.bilivideo.cn:4483/upgcxcode/13/45/1524254513/1524254513-1-30280.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&uipk=5&nbs=1&deadline=1715176890&gen=playurlv2&os=mcdn&oi=3063380882&trid=0000f761b5c7ad3d42bd9738b259fc239327u&mid=602768235&platform=pc&upsig=e11318866967cba88d5e346519705503&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&mcdnid=50000041&bvc=vod&nettype=0&orderid=0,3&buvid=75942A6F489D5AD4F3A9C14024022803maE8NvBrKvx7nNUllGHXrw&build=0&f=u_0_0&agrr=0&bw=15371&logo=A0020000",
+          "bandwidth": 122828,
+          "mimeType": "audio/mp4",
+          "mime_type": "audio/mp4",
+          "codecs": "mp4a.40.2",
+          "width": 0,
+          "height": 0,
+          "frameRate": "",
+          "frame_rate": "",
+          "sar": "",
+          "startWithSap": 0,
+          "start_with_sap": 0,
+          "SegmentBase": {
+            "Initialization": "0-817",
+            "indexRange": "818-2937"
+          },
+          "segment_base": {
+            "initialization": "0-817",
+            "index_range": "818-2937"
+          },
+          "codecid": 0
+        }
+      ],
+      "dolby": {
+        "type": 0,
+        "audio": null
+      },
+      "flac": null
+    },
+    "support_formats": [
+      {
+        "quality": 112,
+        "format": "hdflv2",
+        "new_description": "1080P 高码率",
+        "display_desc": "1080P",
+        "superscript": "高码率",
+        "codecs": [
+          "av01.0.00M.10.0.110.01.01.01.0",
+          "avc1.640033",
+          "hev1.1.6.L150.90"
+        ]
+      },
+      {
+        "quality": 80,
+        "format": "flv",
+        "new_description": "1080P 高清",
+        "display_desc": "1080P",
+        "superscript": "",
+        "codecs": [
+          "av01.0.00M.10.0.110.01.01.01.0",
+          "avc1.640033",
+          "hev1.1.6.L150.90"
+        ]
+      },
+      {
+        "quality": 64,
+        "format": "flv720",
+        "new_description": "720P 高清",
+        "display_desc": "720P",
+        "superscript": "",
+        "codecs": [
+          "av01.0.00M.10.0.110.01.01.01.0",
+          "avc1.640033",
+          "hev1.1.6.L120.90"
+        ]
+      },
+      {
+        "quality": 32,
+        "format": "flv480",
+        "new_description": "480P 清晰",
+        "display_desc": "480P",
+        "superscript": "",
+        "codecs": [
+          "av01.0.00M.10.0.110.01.01.01.0",
+          "avc1.640033",
+          "hev1.1.6.L120.90"
+        ]
+      },
+      {
+        "quality": 16,
+        "format": "mp4",
+        "new_description": "360P 流畅",
+        "display_desc": "360P",
+        "superscript": "",
+        "codecs": [
+          "av01.0.00M.10.0.110.01.01.01.0",
+          "avc1.640033",
+          "hev1.1.6.L120.90"
+        ]
+      }
+    ],
+    "high_format": null,
+    "last_play_time": 0,
+    "last_play_cid": 0,
+    "view_info": null
+  }
+}
