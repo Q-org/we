@@ -1,0 +1,431 @@
+  1| [90m// import Unist, { u } from "./Unist";[39m
+  2| [90m// import { u, ChildrenOrValue, Props } from "./Unist";[39m
+  3| [90mimport { u, ChildrenOrValue, Props } from "unist-builder";[39m
+  4| [90mimport Unist from "./Unist";[39m
+  5| [90m[39m
+  6| [90mimport { fromMarkdown } from "mdast-util-from-markdown";[39m
+  7| [90mimport { visit } from "unist-util-visit";[39m
+  8| [90m[39m
+  9| [90mdescribe("Unist of the group", () => {[39m
+ 10| [90m  describe("visit of the group", () => {[39m
+ 11| [90m    const tree = fromMarkdown("Some *emphasis*, **strong**, and `code`.");[39m
+ 12| [90m    // console.dir(tree);[39m
+ 13| [90m    visit(tree, "text", function (node, index, parent) {[39m
+ 14| [90m      console.log([node.value, parent ? parent.type : index]);[39m
+ 15| [90m    });[39m
+ 16| [90m  });[39m
+ 17| [90m  describe("U", () => {[39m
+ 18| [90m    it("should ", () => {[39m
+ 19| [90m      const tree = u("root", [[39m
+ 20| [90m        u("subtree", { id: 1 }),[39m
+ 21| [90m        u("subtree", { id: 2 }, [[39m
+ 22| [90m          u("node", [u("leaf", "leaf 1"), u("leaf", "leaf 2")]),[39m
+ 23| [90m          u("leaf", { id: 3 }, "leaf 3"),[39m
+ 24| [90m          u("void", { id: 4 }),[39m
+ 25| [90m        ]),[39m
+ 26| [90m      ]);[39m
+ 27| [90m      const tree1 = Unist.u("root", [[39m
+ 28| [90m        u("subtree", { id: 1 }),[39m
+ 29| [90m        u("subtree", { id: 2 }, [[39m
+ 30| [90m          u("node", [u("leaf", "leaf 1"), u("leaf", "leaf 2")]),[39m
+ 31| [90m          u("leaf", { id: 3 }, "leaf 3"),[39m
+ 32| [90m          u("void", { id: 4 }),[39m
+ 33| [90m        ]),[39m
+ 34| [90m      ]);[39m
+ 35| [90m      expect(tree).toEqual(tree1);[39m
+ 36| [90m      // console.dir(tree);[39m
+ 37| [90m    });[39m
+ 38| [90m  });[39m
+ 39| [90m});[39m
+ 40| [90m[39m
+ 41| [90m/**[39m
+ 42| [90m * @typedef {import('mdast').Root} Root[39m
+ 43| [90m * @typedef {import('unist').Node} Node[39m
+ 44| [90m */[39m
+ 45| [90m[39m
+ 46| [90mimport assert from "node:assert/strict";[39m
+ 47| [90mimport test from "node:test";[39m
+ 48| [90m[39m
+ 49| [90mimport { gfmFromMarkdown } from "mdast-util-gfm";[39m
+ 50| [90mimport { gfm } from "micromark-extension-gfm";[39m
+ 51| [90mimport { CONTINUE, EXIT, SKIP } from "unist-util-visit";[39m
+ 52| [90m[39m
+ 53| [90m// To do: remove cast after update.[39m
+ 54| [90mconst tree = /** @type {Root} */ fromMarkdown([39m
+ 55| [90m  "Some _emphasis_, **importance**, and `code`.",[39m
+ 56| [90m);[39m
+ 57| [90m[39m
+ 58| [90mconst stopIndex = 5;[39m
+ 59| [90mconst skipIndex = 7;[39m
+ 60| [90mconst skipReverseIndex = 6;[39m
+ 61| [90m[39m
+ 62| [90mconst texts = 6;[39m
+ 63| [90mconst codes = 1;[39m
+ 64| [90m[39m
+ 65| [90mconst types = [[39m
+ 66| [90m  "root",[39m
+ 67| [90m  "paragraph",[39m
+ 68| [90m  "text",[39m
+ 69| [90m  "emphasis",[39m
+ 70| [90m  "text",[39m
+ 71| [90m  "text",[39m
+ 72| [90m  "strong",[39m
+ 73| [90m  "text",[39m
+ 74| [90m  "text",[39m
+ 75| [90m  "inlineCode",[39m
+ 76| [90m  "text",[39m
+ 77| [90m];[39m
+ 78| [90m[39m
+ 79| [90mconst reverseTypes = [[39m
+ 80| [90m  "root",[39m
+ 81| [90m  "paragraph",[39m
+ 82| [90m  "text",[39m
+ 83| [90m  "inlineCode",[39m
+ 84| [90m  "text",[39m
+ 85| [90m  "strong",[39m
+ 86| [90m  "text",[39m
+ 87| [90m  "text",[39m
+ 88| [90m  "emphasis",[39m
+ 89| [90m  "text",[39m
+ 90| [90m  "text",[39m
+ 91| [90m];[39m
+ 92| [90m[39m
+ 93| [90mdescribe("visit", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+ 94| [90m  it("should expose the public api", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+ 95| [90m    assert.deepEqual(Object.keys(await import("unist-util-visit")).sort(), [[39m
+ 96| [90m      "CONTINUE",[39m
+ 97| [90m      "EXIT",[39m
+ 98| [90m      "SKIP",[39m
+ 99| [90m      "visit",[39m
+100| [90m    ]);[39m
+101| [90m  });[39m
+102| [90m[39m
+103| [90m  it("should fail without tree", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+104| [90m    assert.throws(function () {[39m
+105| [90m      // @ts-expect-error: check that the runtime throws an error.[39m
+106| [90m      visit();[39m
+107| [90m    }, /TypeError: visitor is not a function/);[39m
+108| [90m  });[39m
+109| [90m[39m
+110| [90m  it("should fail without visitor", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+111| [90m    assert.throws(function () {[39m
+112| [90m      // @ts-expect-error: check that the runtime throws an error.[39m
+113| [90m      visit(tree);[39m
+114| [90m    }, /TypeError: visitor is not a function/);[39m
+115| [90m  });[39m
+116| [90m[39m
+117| [90m  it("should iterate over all nodes", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+118| [90m    let n = 0;[39m
+119| [90m[39m
+120| [90m    visit(tree, function (node) {[39m
+121| [90m      assert.strictEqual(node.type, types[n], "should be the expected type");[39m
+122| [90m      n++;[39m
+123| [90m    });[39m
+124| [90m[39m
+125| [90m    assert.equal(n, types.length, "should visit all nodes");[39m
+126| [90m  });[39m
+127| [90m[39m
+128| [90m  it("should iterate over all nodes, backwards", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+129| [90m    let n = 0;[39m
+130| [90m[39m
+131| [90m    visit([39m
+132| [90m      tree,[39m
+133| [90m      function (node) {[39m
+134| [90m        assert.strictEqual([39m
+135| [90m          node.type,[39m
+136| [90m          reverseTypes[n],[39m
+137| [90m          "should be the expected type",[39m
+138| [90m        );[39m
+139| [90m        n++;[39m
+140| [90m      },[39m
+141| [90m      true,[39m
+142| [90m    );[39m
+143| [90m[39m
+144| [90m    assert.equal(n, reverseTypes.length, "should visit all nodes in reverse");[39m
+145| [90m  });[39m
+146| [90m[39m
+147| [90m  it("should only visit a given `type`", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+148| [90m    let n = 0;[39m
+149| [90m[39m
+150| [90m    visit(tree, "text", function (node) {[39m
+151| [90m      assert.strictEqual(node.type, "text", "should be the expected type");[39m
+152| [90m      n++;[39m
+153| [90m    });[39m
+154| [90m[39m
+155| [90m    assert.equal(n, texts, "should visit all matching nodes");[39m
+156| [90m  });[39m
+157| [90m[39m
+158| [90m  it("should only visit given `type`s", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+159| [90m    const types = ["text", "inlineCode"];[39m
+160| [90m    let n = 0;[39m
+161| [90m[39m
+162| [90m    visit(tree, types, function (node) {[39m
+163| [90m      n++;[39m
+164| [90m      assert.notStrictEqual(types.indexOf(node.type), -1, "should match");[39m
+165| [90m    });[39m
+166| [90m[39m
+167| [90m    assert.equal(n, texts + codes, "should visit all matching nodes");[39m
+168| [90m  });[39m
+169| [90m[39m
+170| [90m  it("should accept any `is`-compatible test function", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+171| [90m    let n = 0;[39m
+172| [90m[39m
+173| [90m    visit([39m
+174| [90m      tree,[39m
+175| [90m      test,[39m
+176| [90m      /**[39m
+177| [90m       * @returns {undefined}[39m
+178| [90m       */[39m
+179| [90m      function (node, index, parent) {[39m
+180| [90m        const info = "(" + (parent && parent.type) + ":" + index + ")";[39m
+181| [90m        assert.ok(test(node, index), "should be a requested node " + info);[39m
+182| [90m        n++;[39m
+183| [90m      },[39m
+184| [90m    );[39m
+185| [90m[39m
+186| [90m    assert.equal(n, 3, "should visit all passing nodes");[39m
+187| [90m[39m
+188| [90m    /**[39m
+189| [90m     * @param {Node} _[39m
+190| [90m     * @param {number | undefined} index[39m
+191| [90m     */[39m
+192| [90m    function test(_, index) {[39m
+193| [90m      return typeof index === "number" && index > 3;[39m
+194| [90m    }[39m
+195| [90m  });[39m
+196| [90m[39m
+197| [90m  it("should accept an array of `is`-compatible tests", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+198| [90m    const expected = new Set(["root", "paragraph", "emphasis", "strong"]);[39m
+199| [90m    let n = 0;[39m
+200| [90m[39m
+201| [90m    visit([39m
+202| [90m      tree,[39m
+203| [90m      [[39m
+204| [90m        function (node) {[39m
+205| [90m          return node.type === "root";[39m
+206| [90m        },[39m
+207| [90m        "paragraph",[39m
+208| [90m        { value: "." },[39m
+209| [90m        "emphasis",[39m
+210| [90m        "strong",[39m
+211| [90m      ],[39m
+212| [90m      function (node) {[39m
+213| [90m        const ok =[39m
+214| [90m          expected.has(node.type) || ("value" in node && node.value === ".");[39m
+215| [90m        assert.ok(ok, "should be a requested type: " + node.type);[39m
+216| [90m        n++;[39m
+217| [90m      },[39m
+218| [90m    );[39m
+219| [90m[39m
+220| [90m    assert.equal(n, 5, "should visit all passing nodes");[39m
+221| [90m  });[39m
+222| [90m[39m
+223| [90m  it("should stop if `visitor` stops", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+224| [90m    let n = 0;[39m
+225| [90m[39m
+226| [90m    visit(tree, function (node) {[39m
+227| [90m      assert.strictEqual(node.type, types[n++], "should be the expected type");[39m
+228| [90m      return n === stopIndex ? EXIT : CONTINUE;[39m
+229| [90m    });[39m
+230| [90m[39m
+231| [90m    assert.equal(n, stopIndex, "should visit nodes until `EXIT` is given");[39m
+232| [90m  });[39m
+233| [90m[39m
+234| [90m  it("should stop if `visitor` stops, backwards", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+235| [90m    let n = 0;[39m
+236| [90m[39m
+237| [90m    visit([39m
+238| [90m      tree,[39m
+239| [90m      function (node) {[39m
+240| [90m        assert.strictEqual([39m
+241| [90m          node.type,[39m
+242| [90m          reverseTypes[n++],[39m
+243| [90m          "should be the expected type",[39m
+244| [90m        );[39m
+245| [90m[39m
+246| [90m        return n === stopIndex ? EXIT : CONTINUE;[39m
+247| [90m      },[39m
+248| [90m      true,[39m
+249| [90m    );[39m
+250| [90m[39m
+251| [90m    assert.equal(n, stopIndex, "should visit nodes until `EXIT` is given");[39m
+252| [90m  });[39m
+253| [90m[39m
+254| [90m  it("should skip if `visitor` skips", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+255| [90m    let n = 0;[39m
+256| [90m    let count = 0;[39m
+257| [90m[39m
+258| [90m    visit(tree, function (node) {[39m
+259| [90m      assert.strictEqual(node.type, types[n++], "should be the expected type");[39m
+260| [90m      count++;[39m
+261| [90m[39m
+262| [90m      if (n === skipIndex) {[39m
+263| [90m        n++; // The one node inside it.[39m
+264| [90m        return SKIP;[39m
+265| [90m      }[39m
+266| [90m    });[39m
+267| [90m[39m
+268| [90m    assert.equal([39m
+269| [90m      count,[39m
+270| [90m      types.length - 1,[39m
+271| [90m      "should visit nodes except when `SKIP` is given",[39m
+272| [90m    );[39m
+273| [90m  });[39m
+274| [90m[39m
+275| [90m  it("should skip if `visitor` skips, backwards", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+276| [90m    let n = 0;[39m
+277| [90m    let count = 0;[39m
+278| [90m[39m
+279| [90m    visit([39m
+280| [90m      tree,[39m
+281| [90m      function (node) {[39m
+282| [90m        assert.strictEqual([39m
+283| [90m          node.type,[39m
+284| [90m          reverseTypes[n++],[39m
+285| [90m          "should be the expected type",[39m
+286| [90m        );[39m
+287| [90m        count++;[39m
+288| [90m[39m
+289| [90m        if (n === skipReverseIndex) {[39m
+290| [90m          n++; // The one node inside it.[39m
+291| [90m          return SKIP;[39m
+292| [90m        }[39m
+293| [90m      },[39m
+294| [90m      true,[39m
+295| [90m    );[39m
+296| [90m[39m
+297| [90m    assert.equal([39m
+298| [90m      count,[39m
+299| [90m      reverseTypes.length - 1,[39m
+300| [90m      "should visit nodes except when `SKIP` is given",[39m
+301| [90m    );[39m
+302| [90m  });[39m
+303| [90m[39m
+304| [90m  it("should support a given `index` to iterate over next (`0` to reiterate)", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+305| [90m    let n = 0;[39m
+306| [90m    let again = false;[39m
+307| [90m    const expected = [[39m
+308| [90m      "root",[39m
+309| [90m      "paragraph",[39m
+310| [90m      "text",[39m
+311| [90m      "emphasis",[39m
+312| [90m      "text",[39m
+313| [90m      "text",[39m
+314| [90m      "strong",[39m
+315| [90m      "text",[39m
+316| [90m      "text", // Again.[39m
+317| [90m      "emphasis",[39m
+318| [90m      "text",[39m
+319| [90m      "text",[39m
+320| [90m      "strong",[39m
+321| [90m      "text",[39m
+322| [90m      "text",[39m
+323| [90m      "inlineCode",[39m
+324| [90m      "text",[39m
+325| [90m    ];[39m
+326| [90m[39m
+327| [90m    visit(tree, function (node) {[39m
+328| [90m      assert.strictEqual([39m
+329| [90m        node.type,[39m
+330| [90m        expected[n++],[39m
+331| [90m        "should be the expected type",[39m
+332| [90m      );[39m
+333| [90m[39m
+334| [90m      if (again === false && node.type === "strong") {[39m
+335| [90m        again = true;[39m
+336| [90m        return 0; // Start over.[39m
+337| [90m      }[39m
+338| [90m    });[39m
+339| [90m[39m
+340| [90m    assert.equal(n, expected.length, "should visit nodes again");[39m
+341| [90m  });[39m
+342| [90m[39m
+343| [90m  it("should support a given `index` to iterate over next (`children.length` to skip further children)", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+344| [90m    let n = 0;[39m
+345| [90m    let again = false;[39m
+346| [90m    const expected = [[39m
+347| [90m      "root",[39m
+348| [90m      "paragraph",[39m
+349| [90m      "text",[39m
+350| [90m      "emphasis",[39m
+351| [90m      "text",[39m
+352| [90m      "text",[39m
+353| [90m      "strong", // Skip here[39m
+354| [90m      "text",[39m
+355| [90m    ];[39m
+356| [90m[39m
+357| [90m    visit(tree, function (node, _, parent) {[39m
+358| [90m      assert.strictEqual([39m
+359| [90m        node.type,[39m
+360| [90m        expected[n++],[39m
+361| [90m        "should be the expected type",[39m
+362| [90m      );[39m
+363| [90m[39m
+364| [90m      if (parent && again === false && node.type === "strong") {[39m
+365| [90m        again = true;[39m
+366| [90m        return parent.children.length; // Skip siblings.[39m
+367| [90m      }[39m
+368| [90m    });[39m
+369| [90m[39m
+370| [90m    assert.equal(n, expected.length, "should skip nodes");[39m
+371| [90m  });[39m
+372| [90m[39m
+373| [90m  it("should support any other given `index` to iterate over next", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+374| [90m    let n = 0;[39m
+375| [90m    let again = false;[39m
+376| [90m    const expected = [[39m
+377| [90m      "root",[39m
+378| [90m      "paragraph",[39m
+379| [90m      "text",[39m
+380| [90m      "emphasis",[39m
+381| [90m      "text",[39m
+382| [90m      "text",[39m
+383| [90m      "strong",[39m
+384| [90m      "text",[39m
+385| [90m      "inlineCode", // Skip to here.[39m
+386| [90m      "text",[39m
+387| [90m    ];[39m
+388| [90m[39m
+389| [90m    visit(tree, function (node, index) {[39m
+390| [90m      assert.strictEqual([39m
+391| [90m        node.type,[39m
+392| [90m        expected[n++],[39m
+393| [90m        "should be the expected type",[39m
+394| [90m      );[39m
+395| [90m[39m
+396| [90m      if ([39m
+397| [90m        typeof index === "number" &&[39m
+398| [90m        again === false &&[39m
+399| [90m        node.type === "strong"[39m
+400| [90m      ) {[39m
+401| [90m        again = true;[39m
+402| [90m        return index + 2; // Skip to `inlineCode`.[39m
+403| [90m      }[39m
+404| [90m    });[39m
+405| [90m[39m
+406| [90m    assert.equal(n, expected.length, "should skip nodes");[39m
+407| [90m  });[39m
+408| [90m[39m
+409| [90m  it("should visit added nodes", async  [39m[31mfunction [39m[90m() [39m[32m=> [39m[90m{[39m
+410| [90m    const tree = fromMarkdown("Some _emphasis_, **importance**, and `code`.");[39m
+411| [90m    const other = fromMarkdown("Another ~~sentence~~.", {[39m
+412| [90m      extensions: [gfm()],[39m
+413| [90m      mdastExtensions: [gfmFromMarkdown()],[39m
+414| [90m    }).children[0];[39m
+415| [90m[39m
+416| [90m    const l = types.length + 5; // (p, text, delete, text, text)[39m
+417| [90m    let n = 0;[39m
+418| [90m[39m
+419| [90m    visit(tree, function (_1, _2, parent) {[39m
+420| [90m      n++;[39m
+421| [90m[39m
+422| [90m      if (parent && n === 2) {[39m
+423| [90m        assert(parent.type === "root");[39m
+424| [90m        parent.children.push(other);[39m
+425| [90m      }[39m
+426| [90m    });[39m
+427| [90m[39m
+428| [90m    assert.equal(n, l, "should walk over all nodes");[39m
+429| [90m  });[39m
+430| [90m});[39m
+431| [90m[39m

@@ -4,6 +4,9 @@ import Decorator from "@wei/types/src/lib/types/Decorator";
 import { trace } from "console";
 
 (() => {
+  const removeWhitespace =(hast)=> {
+    //
+  }
   // 准备
   Decorator.callers = ["allowedCaller"];
   Decorator.doNothing = false;
@@ -17,7 +20,12 @@ import { trace } from "console";
   const originalMethod = testFunction;
   // 使用示例
   const decorator = new Decorator();
-  decorator.apply();
+  // decorator.apply();
   // 调用原始方法
   const result = originalMethod("hello");
 })();
+
+
+  const removeWhitespace =(hast)=> {
+    //
+  }
