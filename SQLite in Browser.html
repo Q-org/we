@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SQLite in Browser</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/sql-wasm.js"></script>
+  </head>
+  <body>
+    <h1>SQLite in Browser</h1>
+    <button id="runButton">Run SQL</button>
+    <pre id="output"></pre>
+
+    <script>
+      document
+        .getElementById("runButton")
+        .addEventListener("click", async () => {
+          // Fetch the sql-wasm.wasm file
+          const config = {
+            locateFile: (filename) =>
+              `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/${filename}`,
+          };
+
+          const SQL = await initSqlJs(config);
+          const db = new SQL.Database();
+
+          // Run some SQL queries
+          db.run(
+            "CREATE TABLE tasks (id INTEGER PRIMARY KEY, title TEXT, description TEXT, completed BOOLEAN, createdAt TEXT, updatedAt TEXT)",
+          );
+          db.run(
+            "INSERT INTO tasks (title, description, completed, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?)",
+            [
+              "Learn SQLite",
+              "Learn how to use SQLite in the browser",
+              false,
+              new Date().toISOString(),
+              new Date().toISOString(),
+            ],
+          );
+
+          const res = db.exec("SELECT * FROM tasks");
+
+          // Convert the result to a readable format
+          const output = JSON.stringify(res, null, 2);
+          document.getElementById("output").textContent = output;
+
+          // Close the database
+          db.close();
+        });
+    </script>
+  </body>
+</html>
