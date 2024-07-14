@@ -1,0 +1,1 @@
+yarn prettier -w    --config  .prettierrc.js    packages\q\src\other\打包图片.js

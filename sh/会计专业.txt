@@ -1,0 +1,24 @@
+https://juejin.cn/post/7011934021114396702
+https://github.com/Untitled877/accountBook-vue
+记账插件或应用 
+
+科目余额表 的js插件
+记账凭证的js ts插件 
+科目表，  在git找 相关js ts插件或 应用
+Accounting.js 和 accounting.js 可以在其官方网站上找到：
+
+1. Accounting.js：<https://www.accountingjs.com/>
+2. accounting.js：<https://www.accountingjs.com/>
+
+这些库都是免费的，可以用于商业用途。
+
+此外，D3.js、ECharts、Highcharts 和 Pandas 可以在其官方网站上找到：
+
+1. D3.js：<https://d3js.org/>
+2. ECharts：<https://echarts.apache.org/>
+3. Highcharts：<https://www.highcharts.com/>
+4. Pandas：<https://pandas.pydata.org/>
+
+这些库都不是免费的，但可以免费使用一些基本功能。对于商业项目，您可能需要购买许可证。
+
+

@@ -1,0 +1,2 @@
+f392e04a-9d59-4ec4-a020-c984a93a1041
+yarn locize download --project-id f392e04a-9d59-4ec4-a020-c984a93a1041 --ver latest --language en --namespace namespace1 --path ./public/locales

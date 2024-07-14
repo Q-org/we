@@ -1,0 +1,39 @@
+https://segmentfault.com/a/1190000011296268
+
+git clone git@github.com:Q-org/graphql.qio.git
+
+<!-- # 默认源码的分支是source, 可以新建一个分支用于翻译 -->
+
+git checkout -b cn
+git push -u origin cn
+
+<!-- # 一次性添加 -->
+
+git remote add remote git@github.com:graphql/graphql.github.io.git
+
+<!-- # 每次更新源站最新代码 -->
+
+git pull remote source
+
+
+这篇文章是一位名叫 willin 的开发者在 SegmentFault 思否https://segmentfault.com/a/1190000011296268上发表的，主要介绍了如何使用 Git 来参与开源项目的文档翻译，以及一些最佳实践和注意事项。
+
+文章的主要内容如下：
+
+• 文章分为两个部分，第一部分是针对独立文档项目的翻译方法，第二部分是针对文档包含在项目中的翻译方法。
+
+• 对于独立文档项目，文章以 GraphQL 的文档网站为例，介绍了如何 fork、clone、checkout、push、pull 等操作，以及如何从源站更新内容和解决冲突。
+
+• 对于文档包含在项目中，文章以 vue-router 为例，介绍了如何初始化翻译项目，以及如何从源站更新内容。
+
+• 文章还提供了一些优秀的中文翻译项目和推荐的未翻译项目的链接，以供读者参考和贡献。
+
+文章的主要要点如下：
+
+• 使用 Git 来翻译开源项目的文档，可以方便地与源项目保持同步，便于协作和贡献，无需额外的成本和学习。
+
+• 使用 Git 来翻译开源项目的文档，需要掌握 Git 的基本操作和命令，以及一些常用的分支管理和合并策略。
+
+• 使用 Git 来翻译开源项目的文档，需要注意一些细节，比如 CNAME 等配置文件的替换，pull 后的冲突解决，以及翻译的质量和风格的统一。
+
+希望这些信息对您有帮助。如果您有任何其他问题，欢迎继续和我聊天。
