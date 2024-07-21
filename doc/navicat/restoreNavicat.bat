@@ -1,4 +1,4 @@
-@REM resdore navicat
+@REM restore navicat
 echo Delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Update
 reg delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Update /f
 echo Delete HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration[version and language]
