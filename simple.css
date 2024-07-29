@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+p {
+  color: darkgray;
+  font-size: 16px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
