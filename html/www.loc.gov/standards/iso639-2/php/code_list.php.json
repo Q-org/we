@@ -1,0 +1,311 @@
+{
+  "type": "root",
+  "children": [
+    { "type": "doctype" },
+    {
+      "type": "element",
+      "tagName": "html",
+      "properties": { "lang": "en-US", "dir": "ltr" },
+      "children": [
+        {
+          "type": "element",
+          "tagName": "head",
+          "properties": {},
+          "children": [
+            {
+              "type": "element",
+              "tagName": "title",
+              "properties": {},
+              "children": [{ "type": "text", "value": "请稍候…" }]
+            },
+            {
+              "type": "element",
+              "tagName": "meta",
+              "properties": {
+                "httpEquiv": ["Content-Type"],
+                "content": "text/html; charset=UTF-8"
+              },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "meta",
+              "properties": {
+                "httpEquiv": ["X-UA-Compatible"],
+                "content": "IE=Edge"
+              },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "meta",
+              "properties": { "name": "robots", "content": "noindex,nofollow" },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "meta",
+              "properties": {
+                "name": "viewport",
+                "content": "width=device-width,initial-scale=1"
+              },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "style",
+              "properties": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131}button,html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}body a{color:#fff}body a:hover{color:#ee730a;text-decoration:underline}body .lds-ring div{border-color:#999 transparent transparent}body .font-red{color:#b20f03}body .pow-button{background-color:#4693ff;color:#1d1d1d}body #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}}body{display:flex;flex-direction:column;min-height:100vh}body.no-js .loading-spinner{visibility:hidden}body.no-js .challenge-running{display:none}body.dark{background-color:#222;color:#d9d9d9}body.dark a{color:#fff}body.dark a:hover{color:#ee730a;text-decoration:underline}body.dark .lds-ring div{border-color:#999 transparent transparent}body.dark .font-red{color:#b20f03}body.dark .pow-button{background-color:#4693ff;color:#1d1d1d}body.dark #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.dark #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}body.light{background-color:transparent;color:#313131}body.light a{color:#0051c3}body.light a:hover{color:#ee730a;text-decoration:underline}body.light .lds-ring div{border-color:#595959 transparent transparent}body.light .font-red{color:#fc574a}body.light .pow-button{background-color:#003681;border-color:#003681;color:#fff}body.light #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.light #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}a{background-color:transparent;color:#0051c3;text-decoration:none;transition:color .15s ease}a:hover{color:#ee730a;text-decoration:underline}.main-content{margin:8rem auto;max-width:60rem;width:100%}.heading-favicon{height:2rem;margin-right:.5rem;width:2rem}@media (width <= 720px){.main-content{margin-top:4rem}.heading-favicon{height:1.5rem;width:1.5rem}}.footer,.main-content{padding-left:1.5rem;padding-right:1.5rem}.main-wrapper{align-items:center;display:flex;flex:1;flex-direction:column}.font-red{color:#b20f03}.spacer{margin:2rem 0}.h1{font-size:2.5rem;font-weight:500;line-height:3.75rem}.h2{font-weight:500}.core-msg,.h2{font-size:1.5rem;line-height:2.25rem}.body-text,.core-msg{font-weight:400}.body-text{font-size:1rem;line-height:1.25rem}@media (width <= 720px){.h1{font-size:1.5rem;line-height:1.75rem}.h2{font-size:1.25rem}.core-msg,.h2{line-height:1.5rem}.core-msg{font-size:1rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);padding-left:34px}#challenge-error-text,#challenge-success-text{background-repeat:no-repeat;background-size:contain}#challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=);padding-left:42px}.text-center{text-align:center}.pow-button{background-color:#0051c3;border:.063rem solid #0051c3;border-radius:.313rem;color:#fff;font-size:.875rem;line-height:1.313rem;margin:2rem 0;padding:.375rem 1rem;transition-duration:.2s;transition-property:background-color,border-color,color;transition-timing-function:ease}.pow-button:hover{background-color:#003681;border-color:#003681;color:#fff;cursor:pointer}.footer{font-size:.75rem;line-height:1.125rem;margin:0 auto;max-width:60rem;width:100%}.footer-inner{border-top:1px solid #d9d9d9;padding-bottom:1rem;padding-top:1rem}.clearfix:after{clear:both;content:\"\";display:table}.clearfix .column{float:left;padding-right:1.5rem;width:50%}.diagnostic-wrapper{margin-bottom:.5rem}.footer .ray-id{text-align:center}.footer .ray-id code{font-family:monaco,courier,monospace}.core-msg,.zone-name-title{overflow-wrap:break-word}@media (width <= 720px){.diagnostic-wrapper{display:flex;flex-wrap:wrap;justify-content:center}.clearfix:after{clear:none;content:none;display:initial;text-align:center}.column{padding-bottom:2rem}.clearfix .column{float:none;padding:0;width:auto;word-break:keep-all}.zone-name-title{margin-bottom:1rem}}.loading-spinner{height:76.391px}.lds-ring{display:inline-block;position:relative}.lds-ring,.lds-ring div{height:1.875rem;width:1.875rem}.lds-ring div{animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border:.3rem solid transparent;border-radius:50%;border-top-color:#313131;box-sizing:border-box;display:block;position:absolute}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){.main-wrapper,body{display:block}}.rtl .heading-favicon{margin-left:.5rem;margin-right:0}.rtl #challenge-success-text{background-position:100%;padding-left:0;padding-right:42px}.rtl #challenge-error-text{background-position:100%;padding-left:0;padding-right:34px}"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tagName": "meta",
+              "properties": { "httpEquiv": ["refresh"], "content": "120" },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "script",
+              "properties": {
+                "src": "/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=8b0e4a2708a4cf4d"
+              },
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "script",
+              "properties": {
+                "src": "https://challenges.cloudflare.com/turnstile/v0/g/769ce3c24a3b/api.js?onload=CECj8&render=explicit",
+                "async": true,
+                "defer": true,
+                "crossOrigin": "anonymous"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "tagName": "body",
+          "properties": { "className": ["no-js"] },
+          "children": [
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": { "className": ["main-wrapper"], "role": "main" },
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "div",
+                  "properties": { "className": ["main-content"] },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tagName": "h1",
+                      "properties": { "className": ["zone-name-title", "h1"] },
+                      "children": [{ "type": "text", "value": "www.loc.gov" }]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "h2",
+                      "properties": { "id": "Arfv2", "className": ["h2"] },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "正在验证您是否是真人。这可能需要几秒钟时间。"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": { "id": "qquD4" },
+                      "children": []
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": {
+                        "id": "UvcHr1",
+                        "className": ["spacer", "loading-spinner"],
+                        "style": "display: block; visibility: visible;"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "div",
+                          "properties": { "className": ["lds-ring"] },
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "div",
+                              "properties": {},
+                              "children": []
+                            },
+                            {
+                              "type": "element",
+                              "tagName": "div",
+                              "properties": {},
+                              "children": []
+                            },
+                            {
+                              "type": "element",
+                              "tagName": "div",
+                              "properties": {},
+                              "children": []
+                            },
+                            {
+                              "type": "element",
+                              "tagName": "div",
+                              "properties": {},
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": {
+                        "id": "uuWv7",
+                        "className": ["core-msg", "spacer"]
+                      },
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "继续之前，www.loc.gov 需要先检查您的连接的安全性。"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": {
+                        "id": "dNWVU5",
+                        "style": "display: none;"
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "div",
+                          "properties": {
+                            "id": "challenge-success-text",
+                            "className": ["h2"]
+                          },
+                          "children": [{ "type": "text", "value": "验证成功" }]
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "div",
+                          "properties": { "className": ["core-msg", "spacer"] },
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "正在等待 www.loc.gov 响应..."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "noscript",
+                      "properties": {},
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "<div id=\"challenge-error-title\"><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></div>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tagName": "script",
+              "properties": {},
+              "children": [
+                {
+                  "type": "text",
+                  "value": "(function(){window._cf_chl_opt={cvId: '3',cZone: \"www.loc.gov\",cType: 'non-interactive',cNounce: '47448',cRay: '8b0e4a2708a4cf4d',cHash: '1d3141822772113',cUPMDTk: \"\\/standards\\/iso639-2\\/php\\/code_list.php?__cf_chl_tk=10dmwJNnSrc5UZ.7FNxBrNug3ST85oOWEJ0MUO5iZBI-1723275121-0.0.1.1-3668\",cFPWv: 'g',cTTimeMs: '1000',cMTimeMs: '120000',cTplV: 5,cTplB: 'cf',cK: \"\",fa: \"\\/standards\\/iso639-2\\/php\\/code_list.php?__cf_chl_f_tk=10dmwJNnSrc5UZ.7FNxBrNug3ST85oOWEJ0MUO5iZBI-1723275121-0.0.1.1-3668\",md: \"MlUmQxF7LLcyZA4hCny0o02wxp_P_ytxh0B55.Bu4vU-1723275121-1.1.1.1-o2mOJCTUpkO0Q6C.vIb1a5CFwz57QEO18mVWFZ4mj5JBiVOMOhsyG.FoCA3c_NDVryhjswDk7PTiLmBJvsqsrp40dw6A4XVf2S__63KgCZZXQ9cb2pY71xWpX_KRb_6knSvbOjK67ejnWCxO4GJrz3QnfDes1ZXQPXsZQkWHtnWa9Crh5M_9yS96AgHWUo3t9TLWh_0P9m0L17Wy6bX5fauD_r5RgYo0wotpo.SoT7E1yZaXzhG.CWALf.hdMK7p3y80lQgdTeUXbdUf14.N0rerhq_Xhlo0d9acwEGDKz0yMtUs6aJT9eGYnKkPDONpgt9LKlwR8U.37uIVdxMYLAN.ZLh062_81To.LNyB1GwnTh4JtTaYt_o.t.N6J9CP184g_9p.kITXiBvKkuIhe6BDusR.ZfFB7UQk4fyIhJ4.fuUCAd8XAL8XjfD.6vzECYlixNGV9kX..gx4FfBu08pZb4jdSDfmjVCC3lLnAtoJw8vfgNe9C1bW97oHOczIngXk.nwylO7IxnONnWwrbA277zBQfF7KCWamjFctKek6wHVyDjI11e4qyKIl80QcKfeRt5u3d8fwoHEk1EjYDBQj8qoz7ff6pNFmL7CxhTQYZMgmfpJt3wxd8QvWftQUKFW1LfQapYHhLcKV.1fiEdJn5Nzx_t4v.emp5eQ.HAQIzMjyUJ87h_9zmlKpDg7rIUH8QGWbfUZMmoesfOnbwO0U93waL_kSOleXx1jDamD4GndHtS52Nn4A2FzdIDO5UIoY5Ul618Cc.mRTl1JoeINxgu5kMjxnmWhzoPNuuuYSd2JMETSoqecWFF7REPMJs_fzNzk7LOYZ8leOy82VXc_JxiPq97pSw36Eua3apVV8WxSdpMBB8Mq9Bta_Ymir6Y4soydRlBxgSzL.MA5Q3LrdiH16HHednchvNIvCpsH8nLTE2RdxfWdqXHru.az_dIZGd7fGh.KD.JMLR8JaDm4UFYBSNReah3wK63iNddSm7RiGs9E_.Flx1aqSuTBD2vQNDMYw7aTsCJJmDx1X1xrOiNNuudkJAHuag786Stlmy_gthJvk_ok.O3YrNPow4bjiItEqRmO0.F8Or5SPxl9n0CbNUM4q2YrqC_aApH58qjo.KW4kdkC6qh3885.hGNuBitatX7KeOcjWnz9hFQ\",mdrd: \"L9fTGGJC7vc1LQcroF1fNZ7CnVp48oXfmF.x06UpuZc-1723275121-1.1.1.1-.tqHOVGKONnh16d3gMrtR.cbWAcpN7Kz.0nPfXmi651hBepEotMrW3cpYUeDg8mlNmNYQqThXF4gFYS8b6Due1NoHIhyXKncRjMnKKeTXRiIxG4e5q_bWnKt_zAMjla7aZrM9sElml44Z7DEd_5VIIlIz6rbUUB_wqRMqFvC_NTaVHC70kzU7Hvc0SVab11NZAGP7CpRFtjV_9ltuIkLqT97FKnuo8MJmH1mA6CupDW15pe_OKPd2WbAvt69VF5yb17tMWHnvSQ..Ws0p6hxl3fXHLQFk.JpIObhh.RuScKqshNnaZkrretb7y7zq3Kw6gcDKee02drSdzBUqHwsCxDpPLFXxSWOnPdOUVhiUaDARGoVuw2A6dfuRBPRDyVnkeza8IXLkENN5mRaiQSQ0xB.a6cNWU72VNtQ5oS4BofVmL7r8r.3LCdQKfvKkxevwy4uHvwGwGab02l4Laml_imE87fkFdvjOAAgBP1k_nkt1BFAcY4p_8_PvpNv04gta6SeV0wdutuQI7bJQNNrtibMVpE_a_lyrIP5_lAEnnE28QCdDYn6sArgN1bM1UUgXL7fIAAHLnioVKbzqLILj07fEyeQtruym2c_NoYC4pENehC3xyZtaeFMe5ZKjMoh1iu1TYSOnRowg_pqnL2M4CwqRKnnXrjII2j1EkoAlNR3ms.NA1_ZCG5jrj1GlteE4ZRFNTN7mHox0cAj_EPBSfC_tzC9LNVEq8UH7wr5ragH3eS2MxhHDRUD8.GrPAl_7Gd_VgHKiTjN4A_ptnScHs1lnSw9S74f.IR0SXbgAtDIezeaoBiycr.NxJkSH_FCVRC6QLfhk9enMVUao026.Bd1N19eTN4k.FskHhJsgtnGhJMYKJazYcUyf20Hlpc8_Vg9nLo5sRXNSIJx5XcRRlM65uiYGT.V736Rqt0WIvdEbFcw8c7WU9DDgHHrJ6BEK0xKZNDfU4SqmTShufdQfeL7aqaPvgScqVrbs1x6r3q9KIGkZ0keUboEdUaI1YspofvULFQlC4paaxgcJ75IidqWRZtor_qsbxVtu_JJpUNoVQiGsd59lM_tzoyLaZHrLRrBKblJNE.Sjerp0WtnbSTEh1_HQpi.0zz5XLcFPLlGDZsHOe9g6FvcHlCmim9r8DzlNbxs6C78fkHpy.M1te5ieNJw7vBOUODsO1ULZfToTPn_kR1TCEnaaWxGubkQmH6ucoovTtAz0Xz0uM4JYPG6gO0md0.fY83_e.d7FPpjEghfv15PJ7hq.3bfxMA.pK8dXLyKeFzUd9oTDU6Ek.MbizW0xURQLFnaCvRNuVtddrsF9SrzH4peAIT3vUb_8UDZNvh9CI.StU9goS3jtH0.FJzQfXaI8tMzqROpJTusMPLf2QAaNPXaBhdrhSbQHFTuT519BtwfOFhRp5mUXjuCXH7ikCo4mRmaINkLfjP9zKkmX5of1.HViX2AtDwtsa19lC1qUR8vaTGlzHKBOjr4bO6_7nfYAy7JezLSaMEE98FVMtmqnaNNl0sUNhCHJoOZgusE2MIauYrZ2ddQfblo2ldffYIq_hfozKfWzItB2m0e_sI2SYYSj8LJAdX9LCh5Ssw3BME1abXSOkDYzm4.Rgz6WFShah2EmTKrQfPbmcwO8uMadPM35h.XCPwho.61sfkLLzXiuLIMLTaeGbGvw9oUBCBwZv7eCpdn.3_xP9XFAAyQoYT28678V8z6i_1unuJgH4DbCvxrPpqa9WZauT_tnqbJhlTc.ByZ5ohQOcdOURiiTkzmZ_aOj2p10rGlRYDeDslcpYHkdBgWH92_drKFM8tcLeOzEPOE66VV2D3WWP0OvxEDkJ90al0MGEw6ClmV1wAqxymXkgg5arLcm8Qn2.nHwhicHOdZQfaeOC33zwEkwCgXQh2_4vVXVw3iIWvKmPFBGiARFbh8JCLHyCeWLp29Upc7wZ8.OcXE2UjWeI0C8zZEYBoePZVpRkEbHJvZLNfSzz..JNsl4PbQYScL_WX50oaDWATILoMBa.1.LzUyRd4sbpt0z.BkwXT8UlOKxRuiA.TOetlYOHSQJis8LVJ8KE15PfU9XSfIAJvoP8l8xrvaiEvKi8Zco76OBWXsXKarngb_7C25LeE7Li3bTLmA7xjLGozndtNieyrqXcDoC10OyH2HioUoye5gTq8SNVKqGi3dC6fy4II8I1GO.QQDAOpUsM.cMuF76sALyJFc2SLBpOOHlbCqwDl0AKhHDIBL3G6WWYTRwr0ekHrksiLL9TJ3IXhHYavQFK76n9ApRFTPU_lmSwhBUBa08fgPTiX.gJYeAllbEe3xASzcz0ALJ2zqhUMV67GpWQgBoP10tGTKISAcr.2a\",cRq: {ru: 'aHR0cHM6Ly93d3cubG9jLmdvdi9zdGFuZGFyZHMvaXNvNjM5LTIvcGhwL2NvZGVfbGlzdC5waHA=',ra: 'TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyNy4wLjAuMCBTYWZhcmkvNTM3LjM2',d: 'uv2/ajsr2ve5QpmoWBjPXlBeDWsKe1zWO6Z4YuuGGXMotxd/JbET5H84B9HlO4eJ0aFNCZcHfOcj/52CnXMXz8XtIi5FFM9FLsNguRliWVgj9yHg10Y9lJON41aZ7t1oCuCSJ9a0eOkgxGef/H3gC1vMZQyCG1h5lZQuWPaGI2bDxp1KbxD2LnZow++Nj7gE5prfNU+xRx/3hlFRcLIQagMCm+ErcftUYKDiyCP/I46Qr6OCucE7g4H4QS+k5wBhifmrl48ZUkUd7xMjeWcEvt+JOdX196e/EPPiOb/SmwMnRXzb94UuZhKafGAlXVnfVeXqcNSMRnJRZKnWf0dVj6epP/9E6lOdz+yk+gf1EHNuIc3jjJp7yB9pa1N6sRgFLzae7AVMp8tjW6yRe3c4KoYUjjaG/oDXrAPSrkohvfLZsPDmCe/BzgM7FpvVN5tRTUsC7CBu5YfgcHekpfcTsLfJ7VQpuUpw1Re6/OUi/E8=',t: 'MTcyMzI3NTEyMS4wMDAwMDA=',cT: Math.floor(Date.now() / 1000),m: '6FmqZRHmQ3FvQWzeX9SAUQuy2+PNo5sceA6vZsOv1hc=',i1: 'K51B0D7vUfq3VTXi1q2kvQ==',i2: 'SIfwFdN2xwQDriiAM+9otg==',zh: '8cZe/vPFp8So8yrDZC9fyPTaJozljR/37AvTCs5hLME=',uh: 'rWFtZGJE4Oa38UgkpzLxSaFRrp2i6jLI2EFiVAp7Oms=',hh: 'lHJ7ZXSyfbU5YvkRDxYW/mm9gT+suk9J60d1SJAzN/E=',}};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=8b0e4a2708a4cf4d';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, \"\\/standards\\/iso639-2\\/php\\/code_list.php?__cf_chl_rt_tk=10dmwJNnSrc5UZ.7FNxBrNug3ST85oOWEJ0MUO5iZBI-1723275121-0.0.1.1-3668\" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": { "className": ["footer"], "role": "contentinfo" },
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "div",
+                  "properties": { "className": ["footer-inner"] },
+                  "children": [
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": {
+                        "className": ["clearfix", "diagnostic-wrapper"]
+                      },
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "div",
+                          "properties": { "className": ["ray-id"] },
+                          "children": [
+                            { "type": "text", "value": "Ray ID: " },
+                            {
+                              "type": "element",
+                              "tagName": "code",
+                              "properties": {},
+                              "children": [
+                                { "type": "text", "value": "8b0e4a2708a4cf4d" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "properties": {
+                        "className": ["text-center"],
+                        "id": "footer-text"
+                      },
+                      "children": [
+                        { "type": "text", "value": "性能和安全由" },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "properties": {
+                            "rel": ["noopener", "noreferrer"],
+                            "href": "https://www.cloudflare.com?utm_source=challenge&utm_campaign=j",
+                            "target": "_blank"
+                          },
+                          "children": [
+                            { "type": "text", "value": "Cloudflare" }
+                          ]
+                        },
+                        { "type": "text", "value": "提供" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": { "quirksMode": false }
+}
