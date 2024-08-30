@@ -1,5 +1,10 @@
 # 递归删除
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
+
+
+New-Item -ItemType Junction -Path "packages\q" -Target "C:\dev\q"
+New-Item -ItemType Junction -Path "packages\servers" -Target "C:\dev\servers"
+New-Item -ItemType Junction -Path "packages\servers" -Target ".env"
 # 
 $excludeDirs = @("node_modules", ".pnpm")
 Get-ChildItem -Path "c:/" -Directory -Recurse | Where-Object { $_.Name -eq "doc" -and ($_.FullName -notmatch ($excludeDirs -join "|")) }

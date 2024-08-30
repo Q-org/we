@@ -1,0 +1,92 @@
+{
+  "endTime": 58405655865,
+  "nodes": [
+    {
+      "callFrame": {
+        "columnNumber": -1,
+        "functionName": "(root)",
+        "lineNumber": -1,
+        "scriptId": "0",
+        "url": ""
+      },
+      "children": [2],
+      "hitCount": 0,
+      "id": 1
+    },
+    {
+      "callFrame": {
+        "columnNumber": 34,
+        "functionName": "processTicksAndRejections",
+        "lineNumber": 66,
+        "scriptId": "32",
+        "url": "node:internal/process/task_queues"
+      },
+      "children": [3],
+      "hitCount": 0,
+      "id": 2
+    },
+    {
+      "callFrame": {
+        "columnNumber": 19,
+        "functionName": "",
+        "lineNumber": 25,
+        "scriptId": "740",
+        "url": "file:///C:/dev/wei/libs/ast-account/src/lib/Voucher/index.spec.ts"
+      },
+      "children": [4],
+      "hitCount": 0,
+      "id": 3
+    },
+    {
+      "callFrame": {
+        "columnNumber": 13,
+        "functionName": "fn",
+        "lineNumber": 415,
+        "scriptId": "13",
+        "url": "node:internal/util"
+      },
+      "children": [5],
+      "hitCount": 0,
+      "id": 4
+    },
+    {
+      "callFrame": {
+        "columnNumber": 23,
+        "functionName": "",
+        "lineNumber": 416,
+        "scriptId": "13",
+        "url": "node:internal/util"
+      },
+      "children": [6],
+      "hitCount": 0,
+      "id": 5
+    },
+    {
+      "callFrame": {
+        "columnNumber": 6,
+        "functionName": "post",
+        "lineNumber": 107,
+        "scriptId": "742",
+        "url": "node:inspector"
+      },
+      "children": [7],
+      "hitCount": 0,
+      "id": 6
+    },
+    {
+      "callFrame": {
+        "columnNumber": -1,
+        "functionName": "dispatch",
+        "lineNumber": -1,
+        "scriptId": "0",
+        "url": ""
+      },
+      "hitCount": 1,
+      "id": 7,
+      "positionTicks": [{ "line": 132, "ticks": 1 }]
+    }
+  ],
+  "samples": [6, 7],
+  "startTime": 58405544596,
+  "timeDeltas": [109478, 1682]
+}
