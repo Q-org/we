@@ -9,7 +9,8 @@ apps/w/src/theme/ErrorPageContent.tsx
 ]
 Admonition/Layout
 theme
-{test : [NavbarItem/ComponentTypes, NavbarItem/DefaultNavbarItem ]}
+
+# {test : [NavbarItem/ComponentTypes, NavbarItem/DefaultNavbarItem ]}
 
 [apps\w\src\theme\Layout\index.js,apps\w\src\theme\Layout\Provider\index.js]?
 

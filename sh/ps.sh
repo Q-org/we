@@ -1,6 +1,6 @@
 # 递归删除
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
-
+Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Where-Object { $_.FullName -notlike "*packages/*" } | Remove-Item -Recurse -Force
 
 New-Item -ItemType Junction -Path "packages\q" -Target "C:\dev\q"
 New-Item -ItemType Junction -Path "packages\servers" -Target "C:\dev\servers"

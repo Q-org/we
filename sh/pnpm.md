@@ -1,6 +1,7 @@
-pnpm config get registry
-pnpm config set registry https://registry.npmmirror.com/
-pnpm config set registry https://registry.npmjs.org/
+# pnpm config get registry
+
+pnpm config set registry <https://registry.npmmirror.com/>
+pnpm config set registry <https://registry.npmjs.org/>
 
 @material-ui/core @material-ui/icons
 
