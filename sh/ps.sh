@@ -4,6 +4,10 @@ Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Where-Object 
 
 C:\Mongo\mongodb\bin\mongod --config C:\Mongo\mongod.conf
 
+Get-ChildItem -Path "libs/" -Recurse -Exclude build, dist | Select-String -Pattern "requestIdleCallback"
+Get-ChildItem -Recurse -Exclude build | Select-String -Pattern "requestIdleCallback"
+
+findstr /s /i "requestIdleCallback" *.*
 
 Remove-Item -Path "C:\dev\wei\apps\n\prisma\schema.prisma" -Force
 
