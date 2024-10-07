@@ -1,0 +1,247 @@
+{
+  "type": "element",
+  "tagName": "body",
+  "properties": { "onselectstart": "console.log(onselectstart);return false" },
+  "children": [
+    { "type": "text", "value": "\n    " },
+    {
+      "type": "element",
+      "tagName": "div",
+      "properties": { "className": ["login-container"] },
+      "children": [
+        { "type": "text", "value": "\n      " },
+        {
+          "type": "element",
+          "tagName": "h1",
+          "properties": {
+            "style": "letter-spacing: 0.2rem",
+            "id": "schoolName"
+          },
+          "children": []
+        },
+        { "type": "text", "value": "\n      " },
+        {
+          "type": "element",
+          "tagName": "div",
+          "properties": { "className": ["connect"] },
+          "children": [
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "p",
+              "properties": {},
+              "children": [{ "type": "text", "value": "简单 快速 大数据" }]
+            },
+            { "type": "text", "value": "\n      " }
+          ]
+        },
+        { "type": "text", "value": "\n      " },
+        {
+          "type": "element",
+          "tagName": "form",
+          "properties": {
+            "action": "${pageContext.request.contextPath}/login.action",
+            "method": "post",
+            "id": "loginForm"
+          },
+          "children": [
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "input",
+              "properties": {
+                "type": "hidden",
+                "value": "${pageContext.request.contextPath}",
+                "id": "path"
+              },
+              "children": []
+            },
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": {},
+              "children": [
+                { "type": "text", "value": "\n          " },
+                {
+                  "type": "element",
+                  "tagName": "input",
+                  "properties": {
+                    "type": "text",
+                    "name": "sysUserVo.userName",
+                    "id": "userName",
+                    "value": "${sysUserVo.userName}",
+                    "className": ["username"],
+                    "placeholder": "用户名",
+                    "autoComplete": ["off"]
+                  },
+                  "children": []
+                },
+                { "type": "text", "value": "\n        " }
+              ]
+            },
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": { "className": ["error-password"] },
+              "children": [{ "type": "text", "value": "${loginMessage }" }]
+            },
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": {},
+              "children": [
+                { "type": "text", "value": "\n          " },
+                {
+                  "type": "element",
+                  "tagName": "input",
+                  "properties": {
+                    "type": "password",
+                    "name": "sysUserVo.userPassword",
+                    "id": "userPassword",
+                    "className": ["password"],
+                    "placeholder": "密码",
+                    "onContextMenu": "return false",
+                    "onPaste": "return false"
+                  },
+                  "children": []
+                },
+                { "type": "text", "value": "\n        " }
+              ]
+            },
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "button",
+              "properties": { "id": "submit", "type": "submit" },
+              "children": [{ "type": "text", "value": "登 陆" }]
+            },
+            { "type": "text", "value": "\n      " }
+          ]
+        },
+        { "type": "text", "value": "\n      " },
+        {
+          "type": "element",
+          "tagName": "a",
+          "properties": { "onClick": "toProjectsList();" },
+          "children": [
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "button",
+              "properties": { "type": "button", "className": ["register-tis"] },
+              "children": [{ "type": "text", "value": "实训教学平台" }]
+            },
+            { "type": "text", "value": "\n      " }
+          ]
+        },
+        { "type": "text", "value": "\n      " },
+        {
+          "type": "element",
+          "tagName": "div",
+          "properties": { "className": ["connect"] },
+          "children": [
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            {
+              "type": "element",
+              "tagName": "br",
+              "properties": {},
+              "children": []
+            },
+            { "type": "text", "value": "\n        " },
+            {
+              "type": "element",
+              "tagName": "div",
+              "properties": {
+                "id": "spe12",
+                "style": "\n            text-align: center;\n            font-size: 9px;\n            color: #aeafb1;\n            word-spacing: 5px;\n            letter-spacing: 3px;\n          ",
+                "onselectstart": "return false"
+              },
+              "children": []
+            },
+            { "type": "text", "value": "\n      " }
+          ]
+        },
+        { "type": "text", "value": "\n    " }
+      ]
+    },
+    { "type": "text", "value": "\n    " },
+    {
+      "type": "element",
+      "tagName": "script",
+      "properties": {},
+      "children": [
+        {
+          "type": "text",
+          "value": "\n      var ExpParameterVo = (function () {\n        var expParameterVo;\n        return function () {\n          if (!ExpParameterVo.expParameterVo) {\n            fetch(\"/${pageContext.request.contextPath}/getExpParameterAll\")\n              .then((res) => res.json)\n              .then((json) => (expParameterVo = json));\n            console.log(expParameterVo);\n          }\n          return expParameterVo;\n        };\n      })();\n      load();\n\n      function load() {\n        try {\n          $.ajax({\n            url: \"${pageContext.request.contextPath}/getExpParameterAll\",\n            beforeSend: function () {},\n            success: function (data) {\n              if (data.localip === undefined) {\n                throw \"没有服务器\";\n              }\n              $(\"#localip\").val(data.localip);\n              $(\"#webSiteName\").val(data.expParameterVo.webSiteName);\n              document.title = data.expParameterVo.webSiteName;\n              $(\"#schoolName\").html(data.expParameterVo.webSiteName);\n              $(\"#foot\").html(data.expParameterVo.schoolName);\n              $(\"#spe12\").html(data.expParameterVo.showBottom);\n            },\n          });\n        } catch {\n          alert(\"没有获得参数\");\n          console.log(\"没有获得参数\");\n        }\n      }\n    "
+        }
+      ]
+    },
+    { "type": "text", "value": "\n  \n  " },
+    {
+      "type": "element",
+      "tagName": "script",
+      "properties": {
+        "src": "${pageContext.request.contextPath}/web/entry.js"
+      },
+      "children": []
+    },
+    { "type": "text", "value": "\n\n" }
+  ]
+}

@@ -1,0 +1,1 @@
+C:/dev/wei/node_modules/@docusaurus/core/lib/client/clientEntry.js

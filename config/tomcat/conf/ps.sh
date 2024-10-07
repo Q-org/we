@@ -1,1 +1,0 @@
-New-Item -ItemType SymbolicLink -Path "C:\Program Files (x86)\QxServer7.0\conf" -Target "C:\dev\wei\src\config\tomcat\conf"
