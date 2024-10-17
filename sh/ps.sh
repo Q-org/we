@@ -11,6 +11,8 @@ findstr /s /i "requestIdleCallback" *.*
 
 Remove-Item -Path "C:\dev\wei\apps\n\prisma\schema.prisma" -Force
 
+New-Item -ItemType SymbolicLink -Path "apps\app-react\.env" -Target ".env"
+
 New-Item -ItemType SymbolicLink -Path "libs\mongo\prisma\schema.prisma" -Target "apps\n\prisma\schema.prisma"
 ln -s apps\n\prisma\schema.prisma libs\mongo\prisma\schema.prisma 
 

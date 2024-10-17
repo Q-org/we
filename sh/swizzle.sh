@@ -7,6 +7,7 @@ apps/w/src/theme/Navbar/MobileSidebar/SecondaryMenu/index.tsx
 apps/w/src/theme/ErrorPageContent.tsx
 
 ]
+ Navbar/Logo
 Admonition/Layout
 theme
 
@@ -19,6 +20,7 @@ yarn workspace @wei/w swizzle @docusaurus/theme-classic  NotFound      --typescr
 yarn workspace @wei/w swizzle @docusaurus/theme-classic ColorModeToggle  --typescript --eject
 yarn workspace @wei/w swizzle @docusaurus/theme-classic Navbar  --typescript --eject
 yarn workspace @wei/w swizzle @docusaurus/theme-classic NavbarItem  --typescript --eject
+yarn workspace @wei/w swizzle @docusaurus/theme-classic  Navbar/Logo  --typescript --eject
 
 yarn workspace @wei/w swizzle  --list
 Components available for swizzle in @docusaurus/theme-classic:
