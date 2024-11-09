@@ -1,0 +1,3622 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "table",
+      "align": [null],
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [{ "type": "tableCell", "children": [] }]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "致仪软件" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "管理会计" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "实训指导书" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "align": [null],
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [{ "type": "tableCell", "children": [] }]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "致仪软件" }]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "[选取日期]" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "strong", "children": [{ "type": "text", "value": "欢迎" }] }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "文档修订历史记录" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "部分编号 QXPMCN-0915-SXZDSSE，修订版 A。" }
+      ]
+    },
+    {
+      "type": "table",
+      "align": [null, null, null],
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "strong",
+                      "children": [{ "type": "text", "value": "修订" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "strong",
+                      "children": [{ "type": "text", "value": "操作/更改" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "strong",
+                      "children": [{ "type": "text", "value": "日期" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "A" }]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "更新至版本 1. 0." }]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "2014 年 1月" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "B" }]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "更新至版本 2. 0." }]
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [{ "type": "text", "value": "2016 年 1 月" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "免责声明和版权" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "版权所有 © 2016 致仪软件. 保留所有权利。" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "我们已尽量确保此文档完整、准确且有帮助，但是不能担保它完美无缺。当我们发现错误或遗漏，或者我们注意到它们时，我们会尽力在产品的后续版本中纠正它们。对于由于本文的不精确性或遗漏而导致的任何直接或间接损害或商业损失，致仪软件概不负责。本文中包含的规范可能会有变更，恕不另行通知。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "本文档及相关产品限制其使用、复制、分发和反编译的许可证进行分发。未经重庆千雪科技有限公司事先书面授权，不得以任何方式、任何形式复制本产品或本文档的任何部份。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "目标读者" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "本文档面向终端客户、研发。" },
+        { "type": "link", "url": "", "title": null, "children": [] }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "技术支持" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "QQ：1657539484， 电话：13710653617" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "获得本文档更新版本" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "image",
+          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAeCAYAAACIeIa4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAIdUAACHVAQSctJ0AAAKGSURBVFhH7Za7axVBFMaPz6DYKGJnQFNoE8RKSWMpmLRCxNI6oiCC7jWzuzfXpPBBQEX/AiE2FoLoH6A2ioWVaGOhRUwuXDC5uTsPvzOOch8b3XtzH2PYD75md3bm/HbOOTPUdQmzk4S8QpH+TpExFP7F/D7WayTUA3y3283gsXI45xzOJ+VwzjmcT8rhnHM4nyTMVsBdBNxiZrhQzdOC2eZmGLCE2U5CT1Akr1NRX23wjL6GYJ9RpH6kAtXbwmuJ8a8BGbTMFfNc+pzNhr6JdyfWowjqMZXkCpUQ5EydYw66DfP4+u95vpsqAeBLZMAp+zP7rtt6F1KwQKEstw20nu1uylXU4UNkxwG30oD0CI0glOcpTN7jL7vgOrCtP7b6jB92Cbu1360wYHGaFtaOo85eUNEFmgawnnk8fxfLtySqZ/pbY1lku2T1KADvoR4XM6cpg0W6QtPqCQV6DJmww83om8wWuoV0ivicU1/+Ccjvi3oJjekufs4wGXzvvYTZg2YwiaDf/DrHmqDYkT0CPqJeL5OoeFJfWcXtO9InEPxzAFb/1KFtHAwm0YCS072tL4E8b3BtDIsfo1mz16bZRhXoQ9ih+0jTZdcNqwB7ijVG3YjOxXUerBzExeEk0ruJA6ZZXW7wnCpj4Cu6kYzT2S5diThNp2tTgPqErlrC+bjPvdmY5vUQ5gyopJZoromD3VoLSuOceUcimegaHIubRRG72M3bxhTg+BIRq9XU46flQa/geqGO4SI9bnPaZ7UNFzKc+oBcvoA0GgHgYTSFEe/MKV7QRxDrHdukssHhfhjKGrwMf4W/eW0hK3ZDWjjg1Idsex79B07bsd9OfbhZnPpwU9iYn3N/b2D6ay+dAAAAAElFTkSuQmCC",
+          "title": null,
+          "alt": ""
+        },
+        { "type": "text", "value": "获得本文档最新版本: 或直接在浏览器浏览：" },
+        {
+          "type": "image",
+          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAiCAIAAABNxWdiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAh1QAAIdUBBJy0nQAAB+hJREFUWEe1VglQVOcd15kmtZnaZiYzxinRgiSxTrSHPWJTiTF2nITUaXAmV1MzndYbKBocQECQlEtAkBuNeABTtYUILbiAJwgROcK1x9t739779r293u6+c5f+HxCzAQSM6Te/fe/b9733/f739186MTGxZBFj6q0vXxXu83+3dOnUpsJt6jf9IJQLuOcffHCCZgMeP29zsyjBKG00YvbLzD6ZSQDM54TC4ldaKRVG63DG6uZ8TDAQnMkD4s83gsEJhgsQJCO3+O8qvE1Drk+78ZIOS0GbsaDVWNhmLHoISkSm8k7L6dtYwz3nLcSrw1mam0m+MDfF8mYHPaAhGwedhR3Y3/9pfL9KFV0k/X2+ZGuu+LUc8ZZZgIfb8iXRRch7Ver4BlNNl2NYT3npwAwtF+KemKC5gN3NiI2+DrH7TDee2mT+oFodlSNZlzL23OGRFfHDz8TOgRXxI6sTR395HHm3WlfSiQ9o/eSjcoOkfCDoZ3iCZHV2alDrvTrkyG8z7zqj2ZSNrEoU/yB2bNne0Sf3jD6xR7hOQZjvHX06bmxDBvLRWbS2Gxcb/X7mEfWeshI4ChwfCAQohjPiVLfcU3ET233R8Ns81eok5Ifxku8dkCw7IFyn8N39kmX7xSsOSaLyFKlNxk6xy+SgWe4bcX/ppyAML8VpMFo05s5utcZUal/KUDyTIBX4gPXgNJYdEC+PHY9IEseUq2puWaVGL0lxgVmBvoC/Z0RHIDDh9vNyC9087Mpotuwo06xNk4PeT+wTf2ef+Mn9YtAYhHjqoPjZQ+JfZcli63T/+YLAXDQ4bnY6PQI3mJ1iA1o70z7uyW2zvVeDbsxShh2RPR0vXR4rXR4n/X6c9KmDYG0JSLM2FYkp1xRcs/SpSFB6zjxeLDeIDRXG7GLuyD2F7dg7NegvPlGGJyM/TkZeOCpfn6H4aabixTT5ykTZ8ljJs4ckv8tRHL5kaBxwqG0QJHMoLdTThcra9DoYze5hB7Tk6S7so1r0Z1lKiLLnU+WbclVvV+j+eg7dfQF9u1L780+UKz+WRCaJd5YpK66bhzQep5ed0+CPwA3Wllso0CPxinFzvhDeoO7WAs2eC4a8NmttN1Z7FzvWbN5Rrll/TPpyliT2orpl0GZ2+HieB2c9ls3dVKBX6SsQYTEVup+kyV9Mlb9RrE76l+lCD96FeMYMXih8F3vssfW66GLFu5WK/P8a+pROL8VOZujjceNevnXMm3DZsilXHZ4keyVHnnhZ3zhAjBt8mIeD4NcTTOuw4x/N+rg6TUaT/nKfHY4Tlp2Z06FSLNbfcBZd6XfvqjWtS5c/lyh+86S8vNM8inpcXhbSB2Anudsyd9UNS7HIeOmerV/lxtxM4GHmnhRhkdxBk5Ot+9z5TrU+MkUW9vHYzjJFQ6/NgPu5yWoFZnX6+D6198p9/LN+e7/KZcR9fojvx+aGHQIGnDrfQ+ysRCOSkVVHJO9XqcHgmIed2h1+JM3LzP5uxD2gcuvtPvA01OD5k2gxegvcWow6203EVKBrUuTg7w9P665+4cK905kL3MBldtIKiw+1+90+luOB+KFRNiXTorj5QEBlo850EX8UuJGIJNmu07rmr3MDGdQvB8l6/By0G/Mae9oci+KGcEKsdNUdYke5LiJJGnFkfFeNumXIQZBfVSwggxoChxVcF0O8WL0hXqUWquKW/a1SdXjiWPjh4T9XyZsHiVDuRdbHr+UYpAd0Uh6Kd3g5p5cnqcDs8AS95TbwN/anatXG9LGNaSMHzqlEI074ZAGXTh78LBeEhsnpg/05IHoQhUtghtrpu4irZRAXjTj61aSBYOBhqIDgPoODuTbiyL6K7jur2F+rKG039as8JAVN7AKD44M2FzukIUWjjtZhogtxKa1+32QPswRk75a581oMuz9VJdRpq29Y+9VeqFOhWwKBh+IQk/fmOP7ZfWtzP3ZP4TLO1YrMFoRmg2KDv/aO7XCD9uAFdXaLQTTqhEIkcFvd7L/7iQ+r1RtSxzdnyxIv6dvHXPjkWuiACPL4GYvDp7eTJtznIBma4RdKImEDaNN6FWRao3FLHvKbLCn0uHDwGB2MwC0UrF4iulizImF87VHp386hTYNOk1OoV5CiYO1p8EGG4+Eo9tMstF4Qz2BMAQ9emDUBcQEuH39dSsZdMq/PVEQky7afVJfdsKP4NDdXd88VXaZfmYjA4f/BGbTqNtGj9CEWRm5lpGb6AWRmRmahAbAEgL+hq7PnwmtWZlhP198n/1JvW5elC09TbT+Flt0kUALON9DbxTfc9+yoNK1KUa5NR7YXq/fVGTNbbAUdeGEHfqL9KxS046EIXZpzDp8XdhK57Y6ERuKNKusLx/WRxzRvlunLb4Vw1/d53qo0hSVDDyTbkCn/dbbqlRPaqEIUsLkgBPB3BkJXZ82jCvWvnjREFRtfLjS/lG0MO6pdfVS5vURbCjYnJm1udnH1fe4/VBjDklWrUxTPpysj09Vr0jUR6drHhm5Nhi4yE408bliTqf9Rijo8BToOVdl1G4rTArfNw7eMkHvrLaDlqyf120qNr58yvVby7WAL7HPKvLXU8nqpOapIv61Ivfuctr4HMzsn9YZmaEhPne91ZV/Dc0SOE52u/P8PckXECRF2vtv+ucIDNU7gZvkg4eVVGDNuosdNjMTCftuAPQWIYXMTpcZo6Henuub/AVokSpsFCwUpAAAAAElFTkSuQmCC",
+          "title": null,
+          "alt": ""
+        },
+        { "type": "text", "value": "。" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        {
+          "type": "strong",
+          "children": [{ "type": "text", "value": "信息反馈" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "为了帮助我们未来进一步完善项目，我们期望能了解您认为有用的任何更正、澄清或详细信息。联系我们时，请在电子邮件中包含以下信息："
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "start": null,
+      "spread": false,
+      "children": [
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                { "type": "text", "value": "所提项目的功能、版本和截图" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "您的姓名、单位、职称、电话号码和电子邮件"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "请按以下地址发送电子邮件：" },
+        {
+          "type": "link",
+          "url": "mailto:market@qianxue.net",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "market@zy-soft.net" }]
+            }
+          ]
+        },
+        { "type": "strong", "children": [] }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "目录" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350250",
+          "title": null,
+          "children": [{ "type": "text", "value": "欢迎 1" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350251",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "文档修订历史记录" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350252",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "免责声明和版权" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350253",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "目标读者" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350254",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "技术支持" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350255",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "获得本文档更新版本" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350256",
+          "title": null,
+          "children": [
+            {
+              "type": "strong",
+              "children": [{ "type": "text", "value": "信息反馈" }]
+            },
+            { "type": "text", "value": " 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350258",
+          "title": null,
+          "children": [{ "type": "text", "value": "第一章 管理会计概论 7" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350259",
+          "title": null,
+          "children": [{ "type": "text", "value": "1.1 管理会计概述 7" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350260",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "1.2 管理会计的定义、形成与发展 7" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350261",
+          "title": null,
+          "children": [{ "type": "text", "value": "1.3 小结案例 7" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350262",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "第二章 成本性态分析与变动成本法 8" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350263",
+          "title": null,
+          "children": [{ "type": "text", "value": "2.1 成本动态分析 8" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350264",
+          "title": null,
+          "children": [{ "type": "text", "value": "2.2 小结案例 8" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350265",
+          "title": null,
+          "children": [{ "type": "text", "value": "第三章 变动成本法 10" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350266",
+          "title": null,
+          "children": [{ "type": "text", "value": "3.1 变动成本法概述 10" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350267",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "3.2 变动成本法与完全成本法 10" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350268",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "3.3 营业利润差额的变动规律 10" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350269",
+          "title": null,
+          "children": [{ "type": "text", "value": "3.4 小结案例 11" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350270",
+          "title": null,
+          "children": [{ "type": "text", "value": "第四章 本量利分析 12" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350271",
+          "title": null,
+          "children": [{ "type": "text", "value": "4.1 单一品种保本分析 12" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350272",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "4.2 盈利条件下的本量利分析 12" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350273",
+          "title": null,
+          "children": [
+            {
+              "type": "text",
+              "value": "4.3 单一品种条件下本量利分析的其他问题 12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350274",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "4.4 多品种条件下的本量利分析 12" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350275",
+          "title": null,
+          "children": [{ "type": "text", "value": "4.5 保本点的敏感性分析 12" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350276",
+          "title": null,
+          "children": [{ "type": "text", "value": "4.6 本量利分析实训 12" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350277",
+          "title": null,
+          "children": [{ "type": "text", "value": "4.7 小结案例 13" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350278",
+          "title": null,
+          "children": [{ "type": "text", "value": "第五章 预测分析 14" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350279",
+          "title": null,
+          "children": [{ "type": "text", "value": "5.1 销售预测实训 14" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350280",
+          "title": null,
+          "children": [{ "type": "text", "value": "5.2 成本预测实训 14" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350281",
+          "title": null,
+          "children": [{ "type": "text", "value": "5.3 利润预测实训 14" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350282",
+          "title": null,
+          "children": [{ "type": "text", "value": "5.4 资金需要量预测 14" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350283",
+          "title": null,
+          "children": [{ "type": "text", "value": "5.5 小结案例 15" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350284",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "第六章 短期经营决策分析 16" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350285",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.1 短期经营决策概述 16" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350286",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.2 生产决策案例 16" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350287",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.2.1 是否生产的决策 16" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350288",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.2.2 生产什么的决策 16" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350289",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.2.3 怎样生产的决策 16" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350290",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "6.2.4 不确定条件下的生产决策 16" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350291",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.2.5 生产决策案例 17" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350292",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.3 定价决策实训 17" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350293",
+          "title": null,
+          "children": [{ "type": "text", "value": "6.4 小结案例 17" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350294",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "第七章 长期投资决策分析 18" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350295",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.1 时间价值和风险价值 18" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350296",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.1.1 时间价值 18" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350297",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.1.2 风险价值 18" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350298",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "7.2 评价投资效益的一般方法 18" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350299",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.3 资本成本 18" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350300",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.4 现金流量预计 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350301",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.5 长期投资决策实训 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350302",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.5.1 长期投资决策实训 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350303",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.5.2 独立项目投资决策 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350304",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.5.3 互斥项目投资决策 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350305",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.5.4 资本限额决策 19" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350306",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "7.6 长期投资决策中的敏感性分析 20" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350307",
+          "title": null,
+          "children": [{ "type": "text", "value": "7.7 小结案例 20" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350308",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "第八章 全面预算方法实训 21" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350309",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.1 全面预算的构成 21" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350310",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.2 全面预算的方法 21" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350311",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.3 营业预算的编制 21" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350312",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.4 财务预算的编制 22" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350313",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.5 全面预算实训 22" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350314",
+          "title": null,
+          "children": [{ "type": "text", "value": "8.6 小结案例 22" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350315",
+          "title": null,
+          "children": [{ "type": "text", "value": "第九章 成本控制 23" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350316",
+          "title": null,
+          "children": [{ "type": "text", "value": "9.1 成本差异实训 23" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350317",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "9.2 成本差异账务处理实训 23" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350318",
+          "title": null,
+          "children": [{ "type": "text", "value": "9.3 小结案例 23" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350319",
+          "title": null,
+          "children": [{ "type": "text", "value": "第十章 责任会计 25" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350320",
+          "title": null,
+          "children": [{ "type": "text", "value": "10.1 内部转移价格 25" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350321",
+          "title": null,
+          "children": [{ "type": "text", "value": "10.1.1 内部转移价格 25" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350322",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "10.1.2 内部转移价格的应用 25" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350323",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "10.2 责任预算的编制与考核 25" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350324",
+          "title": null,
+          "children": [{ "type": "text", "value": "10.3 小结案例 25" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350325",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "第十一章 作业成本计算法 26" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350326",
+          "title": null,
+          "children": [{ "type": "text", "value": "11.1 作业成本计算 26" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350327",
+          "title": null,
+          "children": [{ "type": "text", "value": "11.2 产品盈利分析 26" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350328",
+          "title": null,
+          "children": [{ "type": "text", "value": "11.3 生产分析 26" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350329",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "11.4 资源耗用模型和短期经营决策 26" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350330",
+          "title": null,
+          "children": [{ "type": "text", "value": "11.5 小结案例 26" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350331",
+          "title": null,
+          "children": [{ "type": "text", "value": "第十二章 业绩评价 28" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350332",
+          "title": null,
+          "children": [{ "type": "text", "value": "12.1 绩效评价概述 28" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350333",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "12.2 财务绩效评价-----沃尔评分法 28" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350334",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "12.3 经营绩效评价------经济增加值 28" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350335",
+          "title": null,
+          "children": [
+            { "type": "text", "value": "12.4 综合绩效评价------平衡记分卡 28" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350336",
+          "title": null,
+          "children": [{ "type": "text", "value": "12.5 小结案例 28" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350337",
+          "title": null,
+          "children": [{ "type": "text", "value": "第十三章 战略管理会计 29" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350338",
+          "title": null,
+          "children": [{ "type": "text", "value": "13.1 战略与战略管理 29" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350339",
+          "title": null,
+          "children": [{ "type": "text", "value": "13.2 行业生命周期 29" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350340",
+          "title": null,
+          "children": [{ "type": "text", "value": "13.3 战略选择 29" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350341",
+          "title": null,
+          "children": [{ "type": "text", "value": "13.4 财务战略 29" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "#_Toc428350342",
+          "title": null,
+          "children": [{ "type": "text", "value": "13.5 小结案例 29" }]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "管理会计概论" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "1.1 管理会计概述" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 基础知识点 课件" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "1.2 管理会计的定义、形成与发展" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 狭义管理会计" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 广义管理会计" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 管理会计定义" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 传统管理会计" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 现代管理会计" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 管理会计职能" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 财务会计与管理会计的区别" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 财务会计与管理会计的联系-1" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 财务会计与管理会计的联系-2" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "1.3 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 战略的确定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 战略管理会计" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "成本性态分析与变动成本法" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "2.1 成本动态分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 高低点法实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 高低点法实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 高低点法实训三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 回归直线法实训" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 一元直线回归法实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 一元直线回归法实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 成本分类-产品成本和期间成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 成本性态分类" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 成本分类-按经济用途" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "10 成本分类-直接成本和间接成本" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "11 成本性态-固定成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "12 成本性态-图示辨别" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "13 成本性态-混合成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "14 技术分析法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "15 高低点法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "15 散步图法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "16 回归直线法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "17 成本分解-高低点法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "18 成本分解-回归直线法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "19 成本分解-工业工程法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "20 成本分解-账户分析法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "2.2 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 燃料成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 电力成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 维修成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 水费成本" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "变动成本法" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "3.1 变动成本法概述" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 变动成本的内容" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 变动成本法的计算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 变动成本的习性" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 变动成本法的应用" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "3.2 变动成本法与完全成本法" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 变动成本法的构成内容" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 完全成本法的构成内容" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 期间成本的构成内容" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 销货成本和存货成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 营业利润" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 中间指标" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "3.3 营业利润差额的变动规律" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本法计算实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 完全成本法实训" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 变动成本法实训" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "6 完全成本法计算的各年营业利润" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 计算单位产品成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 计算期末存货成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "10 变动成本法编制利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "11 变动成本法编制利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "12 完全成本法编制利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "13 完全成本法编制利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "14 变动成本法编制利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "15 营业利润差额" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "16 营业利润狭义差额的原因" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "17 广义营业利润差额的一般变动规律" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "18 广义营业利润差额的特殊变动规律-1" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "19 广义营业利润差额的特殊变动规律2" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "20 广义差额的简算法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "3.4 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 华达公司的成本法应用" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 华达公司的变动成本计算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 华达公司的完全成本计算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 华达公司的传统式利润表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "5 华达公司的贡献式利润表（标准式）" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 华达公司的广义营业利润差额" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "7 华达公司广义营业利润差额的原因" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "8 华达公司广义营业利润差额的简算法" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "本量利分析" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.1 单一品种保本分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 保本分析的概念" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "2 单一品种保本点的确定—边际贡献法" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 单一品种保本分析" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 企业经营安全程度的评价指标" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.2 盈利条件下的本量利分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 相关指标" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 保利分析—1" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 保利分析—2" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.3 单一品种条件下本量利分析的其他问题" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "1 有关因素变动对相关指标的影响" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 传统式本量利关系图" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 贡献式本量利关系图" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 利润—业务量式本量利关系图" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.4 多品种条件下的本量利分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 总额法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 边际贡献率总和法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 加权平均法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.5 保本点的敏感性分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 保本点敏感性分析" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.6 本量利分析实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 计算分析实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 计算分析实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 计算分析实训三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 计算分析实训四" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 计算分析实训五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 计算分析实训六" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 计算分析实训七" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "4.7 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 单一品种本量利分析" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 多品种综合本量利分析分析" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "预测分析" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "5.1 销售预测实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 销售预测实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 销售预测实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 算术平均法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 加权平均法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 指数平滑法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 回归直线法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 多元回归法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 购买力指数法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "5.2 成本预测实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本预测实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 自然权数加权平均法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 高低点法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 原材料的影响" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 劳动生产率的影响" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 生产产量增长的影响" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 废品损失减少的影响" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "5.3 利润预测实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 利润预测实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 利润预测实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 预测销售量" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 预测利润" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "5.4 资金需要量预测" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 资金增长趋势预测法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 预计资产负债表" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "5.5 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 销售预测" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 成本预测" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 利润预测" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 资金需要量预测" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "短期经营决策分析" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.1 短期经营决策概述" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 经营决策分类" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 短期经营决策的分析方法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 贡献边际" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2 生产决策案例" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2.1 是否生产的决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 是否继续生产亏损产品的决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 是否增产亏损产品的决策1" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 是否增产亏损产品的决策2" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 是否接受低价追加订货的决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2.2 生产什么的决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 新产品开发的品种决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 转产产品的决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 半成品深加工的决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 联产品深加工的决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2.3 怎样生产的决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 零部件自制决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 零部件外购决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 生产工艺技术方案的决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 追加任务由谁完成的决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 零部件自制决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2.4 不确定条件下的生产决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 概率分析法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 大中取大法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 小中取大法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 后悔值计算分析表(元)" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 折衷决策法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.2.5 生产决策案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 生产决策实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 生产决策实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 生产决策实训三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 生产决策实训四" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 生产决策实训五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 生产决策实训六" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.3 定价决策实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 定价决策实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 定价决策实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 成本加成定价法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "4 变动成本贡献率和目标售价保留两位小数。" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 调价决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 保利定价法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "6.4 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 中宗公司生产新产品决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 中宗公司亏损产品决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 中宗公司自制或外购决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 中宗公司联产品深加工决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 中宗公司定价决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "长期投资决策分析" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.1 时间价值和风险价值" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.1.1 时间价值" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 方案一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 方案二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 最终决策" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 货币时间价值实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 货币时间价值实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 货币时间价值实训三" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.1.2 风险价值" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 投资机会一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 投资机会二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 风险决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.2 评价投资效益的一般方法" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 会计收益率法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 投资回收期法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 净现值法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 现值指数法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 内部收益率法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.3 资本成本" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 银行借款成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 债券成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 普通股成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 留存收益成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 优先股成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 加权平均资本成本" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.4 现金流量预计" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 现金流量实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 现金流量实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 现金流量实训三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 现金流量实训四" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 现金流量实训五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 初始现金流量" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 经营现金流量" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 终结现金流量" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.5 长期投资决策实训" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.5.1 长期投资决策实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 长期投资决策分析一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 长期投资决策分析二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 长期投资决策分析三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 长期投资决策分析四" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 长期投资决策分析五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 长期投资决策分析六" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.5.2 独立项目投资决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 项目现金流入现值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 项目现金流出现值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 投资方案净现值" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.5.3 互斥项目投资决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "1 平均年成本（不考虑时间价值）" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 平均年成本（考虑时间价值）" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 增量现金流量" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 总费用现值" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.5.4 资本限额决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 资本限额决策 — 项目组合法" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.6 长期投资决策中的敏感性分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 项目净现值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 每年现金流量下限" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 最低使用年数下限" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 内含报酬率" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "5 内含报酬率对每年现金流量的影响" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 内含报酬率对使用年限的影响" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "7.7 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "1 固定资产更新决策——继续使用旧设备" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "2 固定资产更新决策——使用新设备" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 固定资产更新决策——结论" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "4 固定资产更新决策（续）——差额分析法" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "全面预算方法实训" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.1 全面预算的构成" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 全面预算的构成" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 分类综合" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 全面预算编制原则" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 实例计算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 全面预算的起点" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.2 全面预算的方法" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 固定预算与弹性预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 固定预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 弹性预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 增量预算与零基预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 增量预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 零基预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 定期预算与滚动预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 定期预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 滚动预算" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.3 营业预算的编制" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 销售预算编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 生产预算编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 直接材料预算编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 直接人工预算编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 制造费用预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 产品成本预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 销售费用预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 管理费用预算编制" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.4 财务预算的编制" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 现金预算——概念" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 现金预算的编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 利润表预算的编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 资产负债表预算的编制" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 现金流量表预算的编制" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.5 全面预算实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 销售预算表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 生产预算表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 制造费用预算表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 销售预算表" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 全面预算方法实训五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 全面预算方法实训六" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "8.6 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 现金收入——销售预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 现金支出——成本预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "3 现金支出——销售与管理费用预算" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 经营现金汇总预算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 利润预算" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "成本控制" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "9.1 成本差异实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本差异实训一" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 成本差异实训二" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 成本差异实训三" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 成本差异实训四" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 成本差异实训五" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 成本差异实训六" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "9.2 成本差异账务处理实训" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 计算直接材料成本差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 账务处理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 账务处理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 计算直接人工成本差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 账务处理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 计算变动制造费用差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 账务处理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 计算固定制造费用差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 账务处理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "10 账务处理" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "9.3 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 直接材料标准成本的制定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 直接人工标准成本的制定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 变动制造费用标准成本的制定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 固定制造费用标准成本的制定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 制造费用标准成本的制定" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 单位产品标准成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 直接材料成本差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 直接人工成本差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "9 变动制造费用差异" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "10 固定制造费用差异" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "责任会计" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "10.1 内部转移价格" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "10.1.1 内部转移价格" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 内部转移价格—1" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 内部转移价格—2" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 内部转移价格—3" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 内部转移价格—4" }]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "10.1.2 内部转移价格的应用" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 内部转移价格的应用" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "10.2 责任预算的编制与考核" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本业绩报告　－　一分厂" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 利润报告 －　二分厂" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 投资业绩报告—三分厂" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 投资业绩报告—四分厂" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "10.3 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本中心" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 内部转移价格" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 利润中心指标考核" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 投资中心指标考核" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "作业成本计算法" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "11.1 作业成本计算" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 单位作业层次-直接成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 单位作业层次-机器能量" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 批作业层次-检验成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 批作业层次-材料处理成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 批作业层次-整备成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 产品作业层次-采购成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "7 产品作业层次-分类成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "8 能量作业层次-能量成本" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "11.2 产品盈利分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 分配作业成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 计算直接成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 计算总成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 产品盈利分析" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "11.3 生产分析" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 传统成本法计算成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 分解间接制造费用" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 作业成本法计算成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 辅助经营决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "11.4 资源耗用模型和短期经营决策" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 成本相关性判断" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 相关成本计算" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 订单接受与否决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "11.5 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 最低销量下作业量预测" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 最高销量下作业量预测" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 计算单位作业产出边际贡献" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 作出生产决策" }]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "业绩评价" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "12.1 绩效评价概述" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 企业经营绩效的表现方面" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "2 绩效评价的分类——按照评价的深入程度" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 绩效评价的方法" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 绩效评价系统的设计原则" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 绩效评价系统的实施步骤" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "6 财务业绩评价阶段" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "12.2 财务绩效评价-----沃尔评分法" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 实际数值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 标准数值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 相对比率" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 综合评分" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "12.3 经营绩效评价------经济增加值" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 税后净营业利润" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 投入资本总额" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 加权平均成本" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 经济增加值" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "5 市场增加值" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "12.4 综合绩效评价------平衡记分卡" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 平衡记分卡因素" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 平衡记分卡平衡的体现" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 平衡记分卡设计" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "12.5 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        { "type": "text", "value": "1 GP企业集团全资子公司巨虎公司业绩评价" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "战略管理会计" }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "13.1 战略与战略管理" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 战略类型" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 战略管理与运营管理" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 战略管理流程" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "13.2 行业生命周期" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 行业生命周期" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 波特的五力模型" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 波特的一般价值链模型" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 SWOT分析" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "13.3 战略选择" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 元畅有限公司" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 乐思有限公司" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 迪梦集团" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "4 冰雪美人集团" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "13.4 财务战略" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 企业生命周期" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 波士顿矩阵" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "3 经营风险与财务风险的搭配" }]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        { "type": "link", "url": "", "title": null, "children": [] },
+        { "type": "text", "value": "13.5 小结案例" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "1 战略类型" }]
+    },
+    {
+      "type": "paragraph",
+      "children": [{ "type": "text", "value": "2 营销理论与五力模型" }]
+    }
+  ]
+}

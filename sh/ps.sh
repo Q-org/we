@@ -2,6 +2,9 @@
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Where-Object { $_.FullName -notlike "*packages\*" } | Remove-Item -Recurse -Force
 
+yarn workspace @wei/ast-account remove tesseract
+
+
 C:\Mongo\mongodb\bin\mongod --config C:\Mongo\mongod.conf
 
 Get-ChildItem -Path "libs/" -Recurse -Exclude build, dist | Select-String -Pattern "requestIdleCallback"
