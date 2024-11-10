@@ -1,10 +1,12 @@
 # 递归删除
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
-Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Where-Object { $_.FullName -notlike "*packages\*" } | Remove-Item -Recurse -Force
 
+Stop-Process -Id (Get-NetTCPConnection -LocalPort 82).OwningProcess -Force
 yarn workspace @wei/ast-account remove tesseract
+icacls "C:\dev\wei\.nx" /grant "Everyone:(F)" /T
 
-
+nx g @nx/eslint:convert-to-flat-config
+nx g @nx/eslint:convert-to-flat-config
 C:\Mongo\mongodb\bin\mongod --config C:\Mongo\mongod.conf
 
 Get-ChildItem -Path "libs/" -Recurse -Exclude build, dist | Select-String -Pattern "requestIdleCallback"
