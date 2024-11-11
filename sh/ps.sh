@@ -5,6 +5,8 @@ Stop-Process -Id (Get-NetTCPConnection -LocalPort 82).OwningProcess -Force
 yarn workspace @wei/ast-account remove tesseract
 icacls "C:\dev\wei\.nx" /grant "Everyone:(F)" /T
 
+set NODE_OPTIONS=--max-old-space-size=4096 && nx run w:build
+
 nx g @nx/eslint:convert-to-flat-config
 nx g @nx/eslint:convert-to-flat-config
 C:\Mongo\mongodb\bin\mongod --config C:\Mongo\mongod.conf
