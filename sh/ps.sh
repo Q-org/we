@@ -7,6 +7,10 @@ icacls "C:\dev\wei\.nx" /grant "Everyone:(F)" /T
 
 set NODE_OPTIONS=--max-old-space-size=4096 && nx run w:build
 
+Get-ChildItem -Path . -Recurse -ErrorAction SilentlyContinue `
+| Where-Object { $_.Length -gt 100MB -and $_.FullName -notlike "*\node_modules\*" } `
+| Sort-Object -Property Length -Descending
+
 nx g @nx/eslint:convert-to-flat-config
 nx g @nx/eslint:convert-to-flat-config
 C:\Mongo\mongodb\bin\mongod --config C:\Mongo\mongod.conf

@@ -1,0 +1,729 @@
+{
+  "kind": "SourceFile",
+  "text": "const greeting = \"Hello, world!\";\nconst template = `This is a template string`;\nconst a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`\nconst json = { a: \"sample0\" }; // 现在可以发现 sample0\nconst component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n};\n",
+  "children": [
+    {
+      "kind": "SyntaxList",
+      "text": "const greeting = \"Hello, world!\";\nconst template = `This is a template string`;\nconst a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`\nconst json = { a: \"sample0\" }; // 现在可以发现 sample0\nconst component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n};",
+      "children": [
+        {
+          "kind": "FirstStatement",
+          "text": "const greeting = \"Hello, world!\";",
+          "children": [
+            {
+              "kind": "VariableDeclarationList",
+              "text": "const greeting = \"Hello, world!\"",
+              "children": [
+                {
+                  "kind": "ConstKeyword",
+                  "text": "const",
+                  "children": []
+                },
+                {
+                  "kind": "SyntaxList",
+                  "text": "greeting = \"Hello, world!\"",
+                  "children": [
+                    {
+                      "kind": "VariableDeclaration",
+                      "text": "greeting = \"Hello, world!\"",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "text": "greeting",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstAssignment",
+                          "text": "=",
+                          "children": []
+                        },
+                        {
+                          "kind": "StringLiteral",
+                          "text": "\"Hello, world!\"",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "SemicolonToken",
+              "text": ";",
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "FirstStatement",
+          "text": "const template = `This is a template string`;",
+          "children": [
+            {
+              "kind": "VariableDeclarationList",
+              "text": "const template = `This is a template string`",
+              "children": [
+                {
+                  "kind": "ConstKeyword",
+                  "text": "const",
+                  "children": []
+                },
+                {
+                  "kind": "SyntaxList",
+                  "text": "template = `This is a template string`",
+                  "children": [
+                    {
+                      "kind": "VariableDeclaration",
+                      "text": "template = `This is a template string`",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "text": "template",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstAssignment",
+                          "text": "=",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstTemplateToken",
+                          "text": "`This is a template string`",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "SemicolonToken",
+              "text": ";",
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "FirstStatement",
+          "text": "const a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+          "children": [
+            {
+              "kind": "VariableDeclarationList",
+              "text": "const a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+              "children": [
+                {
+                  "kind": "ConstKeyword",
+                  "text": "const",
+                  "children": []
+                },
+                {
+                  "kind": "SyntaxList",
+                  "text": "a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+                  "children": [
+                    {
+                      "kind": "VariableDeclaration",
+                      "text": "a = `Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "text": "a",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstAssignment",
+                          "text": "=",
+                          "children": []
+                        },
+                        {
+                          "kind": "TemplateExpression",
+                          "text": "`Happy ${new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+                          "children": [
+                            {
+                              "kind": "TemplateHead",
+                              "text": "`Happy ${",
+                              "children": []
+                            },
+                            {
+                              "kind": "SyntaxList",
+                              "text": "new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+                              "children": [
+                                {
+                                  "kind": "TemplateSpan",
+                                  "text": "new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })}! A great {month} for productivity!`",
+                                  "children": [
+                                    {
+                                      "kind": "CallExpression",
+                                      "text": "new Date().toLocaleDateString(\"en\", {\n    month: \"long\",\n  })",
+                                      "children": [
+                                        {
+                                          "kind": "PropertyAccessExpression",
+                                          "text": "new Date().toLocaleDateString",
+                                          "children": [
+                                            {
+                                              "kind": "NewExpression",
+                                              "text": "new Date()",
+                                              "children": [
+                                                {
+                                                  "kind": "NewKeyword",
+                                                  "text": "new",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "Identifier",
+                                                  "text": "Date",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "OpenParenToken",
+                                                  "text": "(",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "SyntaxList",
+                                                  "text": "",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "CloseParenToken",
+                                                  "text": ")",
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "DotToken",
+                                              "text": ".",
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "Identifier",
+                                              "text": "toLocaleDateString",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "OpenParenToken",
+                                          "text": "(",
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "SyntaxList",
+                                          "text": "\"en\", {\n    month: \"long\",\n  }",
+                                          "children": [
+                                            {
+                                              "kind": "StringLiteral",
+                                              "text": "\"en\"",
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "CommaToken",
+                                              "text": ",",
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "ObjectLiteralExpression",
+                                              "text": "{\n    month: \"long\",\n  }",
+                                              "children": [
+                                                {
+                                                  "kind": "FirstPunctuation",
+                                                  "text": "{",
+                                                  "children": []
+                                                },
+                                                {
+                                                  "kind": "SyntaxList",
+                                                  "text": "month: \"long\",",
+                                                  "children": [
+                                                    {
+                                                      "kind": "PropertyAssignment",
+                                                      "text": "month: \"long\"",
+                                                      "children": [
+                                                        {
+                                                          "kind": "Identifier",
+                                                          "text": "month",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "kind": "ColonToken",
+                                                          "text": ":",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "kind": "StringLiteral",
+                                                          "text": "\"long\"",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "CommaToken",
+                                                      "text": ",",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "CloseBraceToken",
+                                                  "text": "}",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "CloseParenToken",
+                                          "text": ")",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "LastTemplateToken",
+                                      "text": "}! A great {month} for productivity!`",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FirstStatement",
+          "text": "const json = { a: \"sample0\" };",
+          "children": [
+            {
+              "kind": "VariableDeclarationList",
+              "text": "const json = { a: \"sample0\" }",
+              "children": [
+                {
+                  "kind": "ConstKeyword",
+                  "text": "const",
+                  "children": []
+                },
+                {
+                  "kind": "SyntaxList",
+                  "text": "json = { a: \"sample0\" }",
+                  "children": [
+                    {
+                      "kind": "VariableDeclaration",
+                      "text": "json = { a: \"sample0\" }",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "text": "json",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstAssignment",
+                          "text": "=",
+                          "children": []
+                        },
+                        {
+                          "kind": "ObjectLiteralExpression",
+                          "text": "{ a: \"sample0\" }",
+                          "children": [
+                            {
+                              "kind": "FirstPunctuation",
+                              "text": "{",
+                              "children": []
+                            },
+                            {
+                              "kind": "SyntaxList",
+                              "text": "a: \"sample0\"",
+                              "children": [
+                                {
+                                  "kind": "PropertyAssignment",
+                                  "text": "a: \"sample0\"",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "text": "a",
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "ColonToken",
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "kind": "StringLiteral",
+                                      "text": "\"sample0\"",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "CloseBraceToken",
+                              "text": "}",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "SemicolonToken",
+              "text": ";",
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "FirstStatement",
+          "text": "const component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n};",
+          "children": [
+            {
+              "kind": "VariableDeclarationList",
+              "text": "const component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n}",
+              "children": [
+                {
+                  "kind": "ConstKeyword",
+                  "text": "const",
+                  "children": []
+                },
+                {
+                  "kind": "SyntaxList",
+                  "text": "component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n}",
+                  "children": [
+                    {
+                      "kind": "VariableDeclaration",
+                      "text": "component = () => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n}",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "text": "component",
+                          "children": []
+                        },
+                        {
+                          "kind": "FirstAssignment",
+                          "text": "=",
+                          "children": []
+                        },
+                        {
+                          "kind": "ArrowFunction",
+                          "text": "() => {\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n}",
+                          "children": [
+                            {
+                              "kind": "OpenParenToken",
+                              "text": "(",
+                              "children": []
+                            },
+                            {
+                              "kind": "SyntaxList",
+                              "text": "",
+                              "children": []
+                            },
+                            {
+                              "kind": "CloseParenToken",
+                              "text": ")",
+                              "children": []
+                            },
+                            {
+                              "kind": "EqualsGreaterThanToken",
+                              "text": "=>",
+                              "children": []
+                            },
+                            {
+                              "kind": "Block",
+                              "text": "{\nreturn (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);\n}",
+                              "children": [
+                                {
+                                  "kind": "FirstPunctuation",
+                                  "text": "{",
+                                  "children": []
+                                },
+                                {
+                                  "kind": "SyntaxList",
+                                  "text": "return (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);",
+                                  "children": [
+                                    {
+                                      "kind": "ReturnStatement",
+                                      "text": "return (\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n);",
+                                      "children": [
+                                        {
+                                          "kind": "ReturnKeyword",
+                                          "text": "return",
+                                          "children": []
+                                        },
+                                        {
+                                          "kind": "ParenthesizedExpression",
+                                          "text": "(\n<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>\n)",
+                                          "children": [
+                                            {
+                                              "kind": "OpenParenToken",
+                                              "text": "(",
+                                              "children": []
+                                            },
+                                            {
+                                              "kind": "JsxFragment",
+                                              "text": "<>\n<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n</>",
+                                              "children": [
+                                                {
+                                                  "kind": "JsxOpeningFragment",
+                                                  "text": "<>",
+                                                  "children": [
+                                                    {
+                                                      "kind": "FirstBinaryOperator",
+                                                      "text": "<",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "GreaterThanToken",
+                                                      "text": ">",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "SyntaxList",
+                                                  "text": "<div title={'title'}>{'simple'}</div> {/* 现在可以发现 simple */}\n",
+                                                  "children": [
+                                                    {
+                                                      "kind": "JsxText",
+                                                      "text": "",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "JsxElement",
+                                                      "text": "<div title={'title'}>{'simple'}</div>",
+                                                      "children": [
+                                                        {
+                                                          "kind": "JsxOpeningElement",
+                                                          "text": "<div title={'title'}>",
+                                                          "children": [
+                                                            {
+                                                              "kind": "FirstBinaryOperator",
+                                                              "text": "<",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "text": "div",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "JsxAttributes",
+                                                              "text": "title={'title'}",
+                                                              "children": [
+                                                                {
+                                                                  "kind": "SyntaxList",
+                                                                  "text": "title={'title'}",
+                                                                  "children": [
+                                                                    {
+                                                                      "kind": "JsxAttribute",
+                                                                      "text": "title={'title'}",
+                                                                      "children": [
+                                                                        {
+                                                                          "kind": "Identifier",
+                                                                          "text": "title",
+                                                                          "children": []
+                                                                        },
+                                                                        {
+                                                                          "kind": "FirstAssignment",
+                                                                          "text": "=",
+                                                                          "children": []
+                                                                        },
+                                                                        {
+                                                                          "kind": "JsxExpression",
+                                                                          "text": "{'title'}",
+                                                                          "children": [
+                                                                            {
+                                                                              "kind": "FirstPunctuation",
+                                                                              "text": "{",
+                                                                              "children": []
+                                                                            },
+                                                                            {
+                                                                              "kind": "StringLiteral",
+                                                                              "text": "'title'",
+                                                                              "children": []
+                                                                            },
+                                                                            {
+                                                                              "kind": "CloseBraceToken",
+                                                                              "text": "}",
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "GreaterThanToken",
+                                                              "text": ">",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "SyntaxList",
+                                                          "text": "{'simple'}",
+                                                          "children": [
+                                                            {
+                                                              "kind": "JsxExpression",
+                                                              "text": "{'simple'}",
+                                                              "children": [
+                                                                {
+                                                                  "kind": "FirstPunctuation",
+                                                                  "text": "{",
+                                                                  "children": []
+                                                                },
+                                                                {
+                                                                  "kind": "StringLiteral",
+                                                                  "text": "'simple'",
+                                                                  "children": []
+                                                                },
+                                                                {
+                                                                  "kind": "CloseBraceToken",
+                                                                  "text": "}",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "JsxClosingElement",
+                                                          "text": "</div>",
+                                                          "children": [
+                                                            {
+                                                              "kind": "FirstBinaryOperator",
+                                                              "text": "<",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "SlashToken",
+                                                              "text": "/",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "text": "div",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "kind": "GreaterThanToken",
+                                                              "text": ">",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "JsxText",
+                                                      "text": "",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "JsxExpression",
+                                                      "text": "{/* 现在可以发现 simple */}",
+                                                      "children": [
+                                                        {
+                                                          "kind": "FirstPunctuation",
+                                                          "text": "{",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "kind": "CloseBraceToken",
+                                                          "text": "}",
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "JsxText",
+                                                      "text": "",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "JsxClosingFragment",
+                                                  "text": "</>",
+                                                  "children": [
+                                                    {
+                                                      "kind": "FirstBinaryOperator",
+                                                      "text": "<",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "SlashToken",
+                                                      "text": "/",
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "kind": "GreaterThanToken",
+                                                      "text": ">",
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "CloseParenToken",
+                                              "text": ")",
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "SemicolonToken",
+                                          "text": ";",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "CloseBraceToken",
+                                  "text": "}",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "SemicolonToken",
+              "text": ";",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "EndOfFileToken",
+      "text": "",
+      "children": []
+    }
+  ]
+}

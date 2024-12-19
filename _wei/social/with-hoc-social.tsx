@@ -18,7 +18,11 @@ export default function withHocSocial(
   return function (
     props: React.ButtonHTMLAttributes<HTMLButtonElement>,
   ): ReactElement {
-    const vheight = useVheight("VIEWPORT_SIZE", 320);
+    const vheight = useVheight(
+      "VIEWPORT_SIZE",
+      //@ts-ignore
+      320,
+    );
     return (
       // 使用 React.Fragment 来包裹原有的组件和 icon 组件
       <>
