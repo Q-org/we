@@ -1,0 +1,5 @@
+# src\doc\llm-docker\requirements.txt
+flask==3.1.0
+ torch==2.6.0
+ transformers==4.36.2
+ urllib3==1.26.18
