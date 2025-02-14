@@ -1,0 +1,53 @@
+{
+  "index_name": "dev_index", // 你的 Algolia 索引名称 (必须)
+  "start_urls": [
+    //  网站的起始 URL (必须)
+    "http://localhost:83/",
+    "http://localhost:83/docs/",
+    "http://localhost:83/blog/"
+  ],
+  "stop_urls": [], //  指定不需要爬取的URL
+  "selectors": {
+    //  CSS 选择器配置 (必须)
+    "lvl0": {
+      //  0级标题的选择器 (通常是网站的名称或分类)
+      "selector": "header h1",
+      "global": true,
+      "default_value": "Your Website"
+    },
+    "lvl1": "article h2", //  1级标题的选择器
+    "lvl2": "article h3", //  2级标题的选择器
+    "lvl3": "article h4", //  3级标题的选择器
+    "lvl4": "article h5", //  4级标题的选择器
+    "lvl5": "article h6", //  5级标题的选择器
+    "content": "article p, article li" //  正文内容的选择器
+  },
+  "strip_chars": " .,;:#?!(){}[]", //  从内容中删除的字符
+  "custom_settings": {
+    //  自定义 Algolia 搜索设置 (可选)
+    "attributesForFaceting": [
+      //  用于分面的属性
+      "lvl0",
+      "lvl1",
+      "lvl2",
+      "lvl3",
+      "lvl4",
+      "lvl5"
+    ],
+    "attributesToIndex": [
+      //  用于索引的属性
+      "unordered(lvl0)",
+      "unordered(lvl1)",
+      "unordered(lvl2)",
+      "unordered(lvl3)",
+      "unordered(lvl4)",
+      "unordered(lvl5)",
+      "unordered(content)"
+    ]
+  },
+  "js_render": false, //  是否启用 JavaScript 渲染 (如果你的网站 heavily rely on JavaScript)
+  "crawler": true, //  是否使用爬虫 (默认: true)
+  "user_agent": "Mozilla/5.0 (compatible; DocSearch/2.0; +https://github.com/algolia/docsearch)", //  自定义 User-Agent
+  "apiKey": "a728fa9125d1a5c821713752be1e10c1", // 你的 Algolia API Key (如果你的apiKey存储在环境变量里，这里可以先不填，在运行脚本之前通过export设置)
+  "appId": "7A61BM8EKU" //  // const client = algoliasearch('7A61BM8EKU', 'a728fa9125d1a5c821713752be1e10c1');
+}
