@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  redis:
+    image: my-redis-image
+    container_name: redis
+    restart: always # 确保容器崩溃后自动重启
+    volumes:
+      - ./redis.conf:/etc/redis/redis.conf
+      - /d/db/redis/data:/data
+      - /d/db/redis/logs:/logs
+    ports:
+      - "110:6379"  # 宿主机端口 110 映射到容器的 6379 端口
+    command: ["redis-server", "/etc/redis/redis.conf"]

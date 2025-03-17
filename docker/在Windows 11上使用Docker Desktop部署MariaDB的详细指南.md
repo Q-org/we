@@ -50,6 +50,16 @@ netsh advfirewall set allprofiles state off
 
 New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4
 
+# 放大 优化 虚拟盘
+Get-VHD -Path "E:\docker\wsl\DockerDesktopWSL\disk\docker_data.vhdx"
+Get-VHD -Path "E:\docker\wsl\DockerDesktopWSL\main\ext4.vhdx"
+
+Resize-VHD -Path "E:\docker\wsl\DockerDesktopWSL\disk\docker_data.vhdx" -SizeBytes 5TB
+Optimize-VHD -Path "E:\docker\wsl\DockerDesktopWSL\disk\docker_data.vhdx"
+
+net stop com.docker.service
+
+
 ```
 
 你可以在Windows 11上借助Docker Desktop来部署MariaDB 。以下为详细步骤：
