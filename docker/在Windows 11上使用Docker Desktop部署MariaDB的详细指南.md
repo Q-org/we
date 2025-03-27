@@ -59,6 +59,8 @@ Optimize-VHD -Path "E:\docker\wsl\DockerDesktopWSL\disk\docker_data.vhdx"
 
 net stop com.docker.service
 
+# 手动触发垃圾回收 (GC)： Docker 的垃圾回收机制可能不会立即清理所有缓存。 你可以尝试运行以下命令来手动触发垃圾回收：
+docker builder prune --force --filter until=0h
 
 ```
 

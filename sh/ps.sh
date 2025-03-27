@@ -1,4 +1,9 @@
 # 递归删除
+
+(Get-ChildItem -Path . -Recurse -Directory | Where-Object { $_.Name -in @("node_modules", "dist", "build", ".nx", ".next", ".docusaurus") }) | Remove-Item -Recurse -Force; Get-Item ./pnpm-lock.yaml, ./package-lock.json -ErrorAction SilentlyContinue | Remove-Item -Force
+
+Get-ChildItem -Path . -Recurse -Directory | Where-Object { $_.Name -in @("node_modules", "dist", "build",".nx",".next",".docusaurus") } | Remove-Item -Recurse -Force
+
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
 
 Stop-Process -Id (Get-NetTCPConnection -LocalPort 82).OwningProcess -Force
@@ -60,3 +65,4 @@ Get-ChildItem -Path "C:\path\to\directory" -Directory doc  -Recurse -Name ?
 
 New-Item -ItemType SymbolicLink -Path "C:/Program Files (x86)/QxServer7.0/conf" -Target "C:\dev\wei\src\config\tomcat\conf"
 New-Item -ItemType SymbolicLink -Path "libs\task\src\lib\ConsoleHost_history.txt" -Target "C:/Users/hi/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt"
+New-Item -ItemType SymbolicLink -Path "libs\task\src\lib\ConsoleHost_history.txt" -Target "C:/Users/administrator/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt"

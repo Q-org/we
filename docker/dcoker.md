@@ -12,6 +12,38 @@ Get-VHD -Path "E:\\docker\\wsl\\DockerDesktopWSL\\main\\ext4.vhdx" | Select-Obje
 
 ```
 
+```json
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "200GB",
+      "enabled": false
+    }
+  },
+  "dns": [
+    "8.8.8.8",
+    "1.1.1.1",
+    "114.114.114.114"
+  ],
+  "experimental": false,
+  "log-level": "info",
+  "proxies": {
+    "default": {
+      "httpProxy": "http://127.0.0.1:888",
+      "httpsProxy": "http://127.0.0.1:888",
+      "noProxy": "localhost,127.0.0.1"
+    }
+  },
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://docker.m.daocloud.io",
+    "https://registry.cn-hangzhou.aliyuncs.com",
+    "https://mirror.ccs.tencentyun.com",
+    "https://docker.mirrors.ustc.edu.cn"
+  ]
+}
+```
+
 ```bash
 #  Docker 数据目录设置
 docker info | Select-String "Docker Root Dir"
