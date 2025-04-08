@@ -1,5 +1,3 @@
-import { replace, upperCase } from "lodash";
-
 (() => {
   function beforeFunction() {
     console.log("Running before the main function");

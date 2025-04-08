@@ -15,7 +15,7 @@ it("should  parseAcorn ", async () => {
 const x = 42; // 这是另一个单行注释
 `;
 
-  let comments = [];
+  const comments = [];
   const ast = await Esast.parseAcorn(code);
   console.log(JSON.stringify(ast));
   // 确保访问的是 VariableDeclaration 类型的节点

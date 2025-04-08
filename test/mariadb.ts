@@ -31,8 +31,8 @@ export const repairText = async (
   regexpOfGroup: RegexpOfGroup,
 ) => {
   try {
-    let vfile = await File.readVFile(path);
-    let content = vfile.value.toString();
+    const vfile = await File.readVFile(path);
+    const content = vfile.value.toString();
     const result = groupReplace(content, regexpOfGroup);
     // 使用 assert 的 notEqual 方法来断言内容是否有变化
     notEqual(content, result, "无可处理！");

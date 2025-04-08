@@ -3,10 +3,10 @@ import PubSub from "pubsub-js";
 
 class WebSocketManager {
   static client: WebSocket;
-  static isOpen: boolean = false;
+  static isOpen = false;
   static messageQueue: any[] = [];
   static responseResolvers: Map<number, (value: any) => void> = new Map();
-  static messageIdCounter: number = 0;
+  static messageIdCounter = 0;
 
   static initialize(url: string) {
     WebSocketManager.client = new WebSocket(url);

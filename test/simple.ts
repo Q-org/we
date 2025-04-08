@@ -1,4 +1,4 @@
-const x: number = 100;
+const x = 100;
 function greet(name: string, arg1 = 2, arg2 = 3): string {
   console.log(name);
   function fn1() {

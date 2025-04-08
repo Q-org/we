@@ -1,6 +1,6 @@
 class WebSocketManager {
   private client: WebSocket;
-  private isOpen: boolean = false;
+  private isOpen = false;
 
   constructor(url: string) {
     this.client = new WebSocket(url);
@@ -43,6 +43,6 @@ class WebSocketManager {
 }
 
 // 导出 WebSocketManager 实例
-const url: string = "ws://localhost:8765";
+const url = "ws://localhost:8765";
 const wsManager: WebSocketManager = new WebSocketManager(url);
 export default wsManager;

@@ -34,5 +34,4 @@ module.exports = postcss.plugin("extract-inline-css", () => {
     // 在文档的 head 部分添加 style 标签
     root.prepend(`/*<style>${styles}</style>*/`);
   };
-  
 });

@@ -29,8 +29,8 @@ const getSignature = () => {
 // const nonceStr = '随机字符串';
 
 async function setWx() {
-  let res = await getSignature();
-  let { timestamp, nonceStr, signature } = res;
+  const res = await getSignature();
+  const { timestamp, nonceStr, signature } = res;
   wx.config({
     debug: true,
     appId: appId,

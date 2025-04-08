@@ -60,8 +60,8 @@ describe("PouchDB of the group", () => {
     }
   });
   it("should timeZone ", () => {
-    let timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    let date = new Date();
+    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const date = new Date();
     expect(date.toISOString()).not.toBe(Pdb.getLocaleTime(date));
     // console.log(date.toISOString(), Pdb.getLocaleTime(date));
     expect(Pdb.getTimeZone()).toBe(timeZone);
@@ -69,7 +69,7 @@ describe("PouchDB of the group", () => {
   });
 
   it("should init  nothing todo ", () => {
-    let timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     const dd = new PouchDB("todos");
   });
   it("should sync local and remote databases", async () => {
@@ -189,7 +189,7 @@ describe("PouchDB of the group", () => {
 
   it("should  db 是否存在 ", async () => {
     const dbName = "todos";
-    let result = await Pdb.isExist(dbName);
+    const result = await Pdb.isExist(dbName);
     expect(result).toBe(false);
     // console.log(result);
   });

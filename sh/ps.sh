@@ -2,8 +2,7 @@
 
 (Get-ChildItem -Path . -Recurse -Directory | Where-Object { $_.Name -in @("node_modules", "dist", "build", ".nx", ".next", ".docusaurus") }) | Remove-Item -Recurse -Force; Get-Item ./pnpm-lock.yaml, ./package-lock.json -ErrorAction SilentlyContinue | Remove-Item -Force
 
-Get-ChildItem -Path . -Recurse -Directory | Where-Object { $_.Name -in @("node_modules", "dist", "build",".nx",".next",".docusaurus") } | Remove-Item -Recurse -Force
-
+nx reset; Get-ChildItem -Path . -Recurse -Directory -Filter dist | Where-Object { $_.FullName -notmatch '\\node_modules\\' } | ForEach-Object { Remove-Item -Recurse -Force $_.FullName }
 Get-ChildItem -Path . -Recurse -Directory -Filter "node_modules" | Remove-Item -Recurse -Force
 
 Stop-Process -Id (Get-NetTCPConnection -LocalPort 82).OwningProcess -Force
