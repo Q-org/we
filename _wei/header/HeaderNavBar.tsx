@@ -21,7 +21,7 @@ const Navigation = styled("nav")(({ theme }) => [
       display: "flex",
     },
     "& li": {
-      color: (theme.vars || theme).palette.text.primary,
+      color: theme.palette.text.primary,
       ...theme.typography.body2,
       fontWeight: theme.typography.fontWeightBold,
       "& > a, & > div": {
@@ -29,19 +29,19 @@ const Navigation = styled("nav")(({ theme }) => [
         color: "inherit",
         textDecoration: "none",
         padding: theme.spacing("8px", 1),
-        borderRadius: (theme.vars || theme).shape.borderRadius,
+        borderRadius: theme.shape.borderRadius,
         "&:hover": {
-          color: (theme.vars || theme).palette.grey[700],
-          backgroundColor: (theme.vars || theme).palette.grey[50],
+          color: theme.palette.grey[700],
+          backgroundColor: theme.palette.grey[50],
           // Reset on touch devices, it doesn't add specificity
           "@media (hover: none)": {
             backgroundColor: "initial",
           },
         },
         "&:focus-visible": {
-          color: (theme.vars || theme).palette.grey[700],
+          color: theme.palette.grey[700],
           outline: 0,
-          backgroundColor: (theme.vars || theme).palette.grey[100],
+          backgroundColor: theme.palette.grey[100],
         },
       },
       "& > div": {
@@ -53,12 +53,12 @@ const Navigation = styled("nav")(({ theme }) => [
     "& li": {
       "& > a, & > div": {
         "&:hover": {
-          backgroundColor: (theme.vars || theme).palette.primaryDark[700],
-          color: (theme.vars || theme).palette.primaryDark[200],
+          backgroundColor: theme.palette.primaryDark[700],
+          color: theme.palette.primaryDark[200],
         },
         "&:focus-visible": {
-          backgroundColor: (theme.vars || theme).palette.primaryDark[600],
-          color: (theme.vars || theme).palette.primaryDark[100],
+          backgroundColor: theme.palette.primaryDark[600],
+          color: theme.palette.primaryDark[100],
         },
       },
     },
@@ -98,7 +98,7 @@ const ProductSubMenu = React.forwardRef<HTMLAnchorElement, ProductSubMenuProps>(
             py: 2,
             pr: 3,
             "&:hover, &:focus": {
-              backgroundColor: (theme.vars || theme).palette.grey[50],
+              backgroundColor: theme.palette.grey[50],
               outline: 0,
               "@media (hover: none)": {
                 backgroundColor: "initial",
@@ -120,13 +120,13 @@ const ProductSubMenu = React.forwardRef<HTMLAnchorElement, ProductSubMenuProps>(
             (theme) => ({
               px: 2,
               "& circle": {
-                fill: (theme.vars || theme).palette.grey[100],
+                fill: theme.palette.grey[100],
               },
             }),
             (theme) =>
               theme.applyDarkStyles({
                 "& circle": {
-                  fill: (theme.vars || theme).palette.primaryDark[700],
+                  fill: theme.palette.primaryDark[700],
                 },
               }),
           ]}

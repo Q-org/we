@@ -1,6 +1,6 @@
 // src\getSignature.js
 
-const appId = 'wx0784e64a30f2eb45';
+const appId = "wx0784e64a30f2eb45";
 
 // 确保在HTML文件中正确引入了微信JS-SDK
 // <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
@@ -9,11 +9,11 @@ const appId = 'wx0784e64a30f2eb45';
 const getSignature = () => {
   // 获取微信签名
   return new Promise((resolve, reject) => {
-    Axios.get('您的后端API路径', {
+    Axios.get("您的后端API路径", {
       // 修改这里
       params: {
         appid: appId,
-        url: window.location.href.split('#')[0],
+        url: window.location.href.split("#")[0],
       },
     })
       .then((res) => {
@@ -38,27 +38,27 @@ async function setWx() {
     nonceStr: nonceStr,
     signature: signature,
     jsApiList: [
-      'updateAppMessageShareData',
-      'updateTimelineShareData',
+      "updateAppMessageShareData",
+      "updateTimelineShareData",
       // ...可以添加其他需要使用的接口
     ],
   });
   wx.ready(() => {
     wx.updateAppMessageShareData({
-      title: '测试分享',
-      desc: '一个测试的分享!!!',
+      title: "测试分享",
+      desc: "一个测试的分享!!!",
       link: window.location.href,
       imgUrl:
-        'http://icon.mobanwang.com/UploadFiles_8971/200910/20091011134333685.png', // 修改这里
+        "http://icon.mobanwang.com/UploadFiles_8971/200910/20091011134333685.png", // 修改这里
       success: function () {
         // 用户点击了分享后执行的回调函数
       },
     });
     wx.updateTimelineShareData({
-      title: '测试分享',
+      title: "测试分享",
       link: window.location.href,
       imgUrl:
-        'http://icon.mobanwang.com/UploadFiles_8971/200910/20091011134333685.png', // 修改这里
+        "http://icon.mobanwang.com/UploadFiles_8971/200910/20091011134333685.png", // 修改这里
       success: function () {
         // 用户点击了分享后执行的回调函数
       },
@@ -67,8 +67,8 @@ async function setWx() {
 }
 
 // 生成测试路径
-const REDIRECT_URI = encodeURIComponent('https://qio.wiki/sharepath'); // 修改这里
-const SCOPE = 'snsapi_base';
+const REDIRECT_URI = encodeURIComponent("https://qio.wiki/sharepath"); // 修改这里
+const SCOPE = "snsapi_base";
 const shareUrl = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appId}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=${SCOPE}&state=STATE#wechat_redirect`;
 
 // 修改这里

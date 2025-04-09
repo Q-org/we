@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import singleSpaReact from 'single-spa-react';
-import Root from 'theme/Root';
+import React from "react";
+import ReactDOM from "react-dom";
+import singleSpaReact from "single-spa-react";
+import Root from "theme/Root";
 
 const lifecycles = singleSpaReact({
   React,
