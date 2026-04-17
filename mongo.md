@@ -140,7 +140,3 @@ mongo --config /etc/mongod.conf
    ```sh
    rs.status()
    ```
-
-```
-
-```
